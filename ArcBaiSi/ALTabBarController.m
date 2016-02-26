@@ -11,6 +11,7 @@
 #import "ALNewViewController.h"
 #import "ALFriendTrendsViewController.h"
 #import "ALMeViewController.h"
+#import "ALTabBar.h"
 
 @interface ALTabBarController ()
 
@@ -41,6 +42,9 @@
     [self setUpChildVc:[[ALNewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
     [self setUpChildVc:[[ALFriendTrendsViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     [self setUpChildVc:[[ALMeViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
+    
+    // 更改类
+    [self setValue:[[ALTabBar alloc] init] forKeyPath:@"tabBar"];
 }
 
 #pragma mark 初始化子控制器

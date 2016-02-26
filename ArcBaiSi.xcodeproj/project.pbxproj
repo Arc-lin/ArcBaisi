@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3519F44E1C807CC700E07B77 /* ALTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3519F44D1C807CC700E07B77 /* ALTabBar.m */; };
 		3521469B1C7D98D3006F6CD6 /* ALTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3521469A1C7D98D3006F6CD6 /* ALTabBarController.m */; };
 		3521469E1C7DA111006F6CD6 /* ALEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3521469D1C7DA111006F6CD6 /* ALEssenceViewController.m */; };
 		352146A11C7DA129006F6CD6 /* ALNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352146A01C7DA129006F6CD6 /* ALNewViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3519F44C1C807CC700E07B77 /* ALTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTabBar.h; sourceTree = "<group>"; };
+		3519F44D1C807CC700E07B77 /* ALTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTabBar.m; sourceTree = "<group>"; };
 		352146991C7D98D3006F6CD6 /* ALTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTabBarController.h; sourceTree = "<group>"; };
 		3521469A1C7D98D3006F6CD6 /* ALTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTabBarController.m; sourceTree = "<group>"; };
 		3521469C1C7DA111006F6CD6 /* ALEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEssenceViewController.h; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				352146A61C7DA148006F6CD6 /* ALMeViewController.m */,
 				352146991C7D98D3006F6CD6 /* ALTabBarController.h */,
 				3521469A1C7D98D3006F6CD6 /* ALTabBarController.m */,
+				3519F44C1C807CC700E07B77 /* ALTabBar.h */,
+				3519F44D1C807CC700E07B77 /* ALTabBar.m */,
 				35B28A111C7CAE4200892675 /* Supporting Files */,
 			);
 			path = ArcBaiSi;
@@ -168,6 +173,7 @@
 				35B28A131C7CAE4200892675 /* main.m in Sources */,
 				3521469E1C7DA111006F6CD6 /* ALEssenceViewController.m in Sources */,
 				352146A71C7DA148006F6CD6 /* ALMeViewController.m in Sources */,
+				3519F44E1C807CC700E07B77 /* ALTabBar.m in Sources */,
 				3521469B1C7D98D3006F6CD6 /* ALTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
