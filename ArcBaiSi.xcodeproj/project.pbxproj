@@ -7,24 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3521469B1C7D98D3006F6CD6 /* ALTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3521469A1C7D98D3006F6CD6 /* ALTabBarController.m */; };
+		3521469E1C7DA111006F6CD6 /* ALEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3521469D1C7DA111006F6CD6 /* ALEssenceViewController.m */; };
+		352146A11C7DA129006F6CD6 /* ALNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352146A01C7DA129006F6CD6 /* ALNewViewController.m */; };
+		352146A41C7DA13A006F6CD6 /* ALFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352146A31C7DA13A006F6CD6 /* ALFriendTrendsViewController.m */; };
+		352146A71C7DA148006F6CD6 /* ALMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352146A61C7DA148006F6CD6 /* ALMeViewController.m */; };
 		35B28A131C7CAE4200892675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B28A121C7CAE4200892675 /* main.m */; };
 		35B28A161C7CAE4200892675 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B28A151C7CAE4200892675 /* AppDelegate.m */; };
-		35B28A191C7CAE4200892675 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B28A181C7CAE4200892675 /* ViewController.m */; };
-		35B28A1C1C7CAE4200892675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B28A1A1C7CAE4200892675 /* Main.storyboard */; };
 		35B28A1E1C7CAE4200892675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B28A1D1C7CAE4200892675 /* Assets.xcassets */; };
-		35B28A211C7CAE4200892675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B28A1F1C7CAE4200892675 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		352146991C7D98D3006F6CD6 /* ALTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTabBarController.h; sourceTree = "<group>"; };
+		3521469A1C7D98D3006F6CD6 /* ALTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTabBarController.m; sourceTree = "<group>"; };
+		3521469C1C7DA111006F6CD6 /* ALEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEssenceViewController.h; sourceTree = "<group>"; };
+		3521469D1C7DA111006F6CD6 /* ALEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALEssenceViewController.m; sourceTree = "<group>"; };
+		3521469F1C7DA129006F6CD6 /* ALNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNewViewController.h; sourceTree = "<group>"; };
+		352146A01C7DA129006F6CD6 /* ALNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNewViewController.m; sourceTree = "<group>"; };
+		352146A21C7DA13A006F6CD6 /* ALFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALFriendTrendsViewController.h; sourceTree = "<group>"; };
+		352146A31C7DA13A006F6CD6 /* ALFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALFriendTrendsViewController.m; sourceTree = "<group>"; };
+		352146A51C7DA148006F6CD6 /* ALMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMeViewController.h; sourceTree = "<group>"; };
+		352146A61C7DA148006F6CD6 /* ALMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMeViewController.m; sourceTree = "<group>"; };
 		35B28A0E1C7CAE4200892675 /* ArcBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B28A121C7CAE4200892675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35B28A141C7CAE4200892675 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35B28A151C7CAE4200892675 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35B28A171C7CAE4200892675 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35B28A181C7CAE4200892675 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		35B28A1B1C7CAE4200892675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35B28A1D1C7CAE4200892675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		35B28A201C7CAE4200892675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35B28A221C7CAE4200892675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,12 +68,16 @@
 			children = (
 				35B28A141C7CAE4200892675 /* AppDelegate.h */,
 				35B28A151C7CAE4200892675 /* AppDelegate.m */,
-				35B28A171C7CAE4200892675 /* ViewController.h */,
-				35B28A181C7CAE4200892675 /* ViewController.m */,
-				35B28A1A1C7CAE4200892675 /* Main.storyboard */,
-				35B28A1D1C7CAE4200892675 /* Assets.xcassets */,
-				35B28A1F1C7CAE4200892675 /* LaunchScreen.storyboard */,
-				35B28A221C7CAE4200892675 /* Info.plist */,
+				3521469C1C7DA111006F6CD6 /* ALEssenceViewController.h */,
+				3521469D1C7DA111006F6CD6 /* ALEssenceViewController.m */,
+				3521469F1C7DA129006F6CD6 /* ALNewViewController.h */,
+				352146A01C7DA129006F6CD6 /* ALNewViewController.m */,
+				352146A21C7DA13A006F6CD6 /* ALFriendTrendsViewController.h */,
+				352146A31C7DA13A006F6CD6 /* ALFriendTrendsViewController.m */,
+				352146A51C7DA148006F6CD6 /* ALMeViewController.h */,
+				352146A61C7DA148006F6CD6 /* ALMeViewController.m */,
+				352146991C7D98D3006F6CD6 /* ALTabBarController.h */,
+				3521469A1C7D98D3006F6CD6 /* ALTabBarController.m */,
 				35B28A111C7CAE4200892675 /* Supporting Files */,
 			);
 			path = ArcBaiSi;
@@ -74,6 +86,8 @@
 		35B28A111C7CAE4200892675 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				35B28A1D1C7CAE4200892675 /* Assets.xcassets */,
+				35B28A221C7CAE4200892675 /* Info.plist */,
 				35B28A121C7CAE4200892675 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -105,6 +119,7 @@
 		35B28A061C7CAE4200892675 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AL;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sziit;
 				TargetAttributes = {
@@ -136,9 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B28A211C7CAE4200892675 /* LaunchScreen.storyboard in Resources */,
 				35B28A1E1C7CAE4200892675 /* Assets.xcassets in Resources */,
-				35B28A1C1C7CAE4200892675 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B28A191C7CAE4200892675 /* ViewController.m in Sources */,
 				35B28A161C7CAE4200892675 /* AppDelegate.m in Sources */,
+				352146A41C7DA13A006F6CD6 /* ALFriendTrendsViewController.m in Sources */,
+				352146A11C7DA129006F6CD6 /* ALNewViewController.m in Sources */,
 				35B28A131C7CAE4200892675 /* main.m in Sources */,
+				3521469E1C7DA111006F6CD6 /* ALEssenceViewController.m in Sources */,
+				352146A71C7DA148006F6CD6 /* ALMeViewController.m in Sources */,
+				3521469B1C7D98D3006F6CD6 /* ALTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		35B28A1A1C7CAE4200892675 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35B28A1B1C7CAE4200892675 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		35B28A1F1C7CAE4200892675 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35B28A201C7CAE4200892675 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		35B28A231C7CAE4200892675 /* Debug */ = {
@@ -263,10 +261,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = ArcBaiSi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sziit.ArcBaiSi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -274,10 +275,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = ArcBaiSi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sziit.ArcBaiSi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -300,6 +304,7 @@
 				35B28A271C7CAE4200892675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
