@@ -1,23 +1,35 @@
 //
-//  ALMeViewController.m
+//  ALFriendTrendsViewController.m
 //  ArcBaiSi
 //
 //  Created by Arclin on 16/2/24.
 //  Copyright © 2016年 sziit. All rights reserved.
 //
 
-#import "ALMeViewController.h"
+#import "ALFriendTrendsViewController.h"
 
-@interface ALMeViewController ()
+@interface ALFriendTrendsViewController ()
 
 @end
 
-@implementation ALMeViewController
+@implementation ALFriendTrendsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    // 设置导航栏标题
+    self.navigationItem.title = @"我的关注";
+    
+    // 设置导航栏左边的按钮
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highlightImage:@"friendsRecommentIcon-click" target:self action:@selector(friendsClick)];
+
 }
+- (void)friendsClick
+{
+    ALLog(@"");
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

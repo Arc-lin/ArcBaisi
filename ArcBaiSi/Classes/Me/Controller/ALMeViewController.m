@@ -1,24 +1,39 @@
 //
-//  ALEssenceViewController.m
+//  ALMeViewController.m
 //  ArcBaiSi
 //
 //  Created by Arclin on 16/2/24.
 //  Copyright © 2016年 sziit. All rights reserved.
 //
 
-#import "ALEssenceViewController.h"
+#import "ALMeViewController.h"
 
-@interface ALEssenceViewController ()
+@interface ALMeViewController ()
 
 @end
 
-@implementation ALEssenceViewController
+@implementation ALMeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIBarButtonItem *settingItem = [UIBarButtonItem itemWithImage:@"mine-setting-icon" highlightImage:@"mine-setting-icon-click" target:self action:@selector(settingClick)];
+    UIBarButtonItem *nightModeItem = [UIBarButtonItem itemWithImage:@"mine-moon-icon" highlightImage:@"mine-moon-icon-click" target:self action:@selector(nightModeButton)];
+    
+    self.navigationItem.rightBarButtonItems = @[settingItem,nightModeItem];
+
 }
 
+- (void)settingClick
+{
+    ALLog(@"");
+}
+
+- (void)nightModeButton
+{
+    ALLog(@"");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

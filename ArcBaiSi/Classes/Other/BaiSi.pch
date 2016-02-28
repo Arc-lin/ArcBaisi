@@ -1,0 +1,27 @@
+//
+//  BaiSi.pch
+//  ArcBaiSi
+//
+//  Created by Arclin on 16/2/27.
+//  Copyright © 2016年 sziit. All rights reserved.
+//
+
+#ifndef BaiSi_pch
+#define BaiSi_pch
+
+#import "UIView+Frame.h"
+#import "UIBarButtonItem+ALExtension.h"
+
+#ifdef DEBUG
+
+#define ALLog(...) NSLog(@"%s %@",__func__,[NSString stringWithFormat:__VA_ARGS__])
+
+#else
+
+#define ALLog(...)
+
+#endif
+
+#define ALRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#endif /* BaiSi_pch */

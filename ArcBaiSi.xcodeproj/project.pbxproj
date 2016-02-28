@@ -7,34 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3519F44E1C807CC700E07B77 /* ALTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3519F44D1C807CC700E07B77 /* ALTabBar.m */; };
-		3521469B1C7D98D3006F6CD6 /* ALTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3521469A1C7D98D3006F6CD6 /* ALTabBarController.m */; };
-		3521469E1C7DA111006F6CD6 /* ALEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3521469D1C7DA111006F6CD6 /* ALEssenceViewController.m */; };
-		352146A11C7DA129006F6CD6 /* ALNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352146A01C7DA129006F6CD6 /* ALNewViewController.m */; };
-		352146A41C7DA13A006F6CD6 /* ALFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352146A31C7DA13A006F6CD6 /* ALFriendTrendsViewController.m */; };
-		352146A71C7DA148006F6CD6 /* ALMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352146A61C7DA148006F6CD6 /* ALMeViewController.m */; };
-		35B28A131C7CAE4200892675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B28A121C7CAE4200892675 /* main.m */; };
-		35B28A161C7CAE4200892675 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B28A151C7CAE4200892675 /* AppDelegate.m */; };
+		35A94FCB1C82DD4100AFFA5F /* ALEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FA61C82DD4100AFFA5F /* ALEssenceViewController.m */; };
+		35A94FCC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FAC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m */; };
+		35A94FCD1C82DD4100AFFA5F /* ALMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FB21C82DD4100AFFA5F /* ALMeViewController.m */; };
+		35A94FCE1C82DD4100AFFA5F /* ALNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FB81C82DD4100AFFA5F /* ALNewViewController.m */; };
+		35A94FCF1C82DD4100AFFA5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FBD1C82DD4100AFFA5F /* AppDelegate.m */; };
+		35A94FD01C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FC11C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.m */; };
+		35A94FD11C82DD4100AFFA5F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FC31C82DD4100AFFA5F /* UIView+Frame.m */; };
+		35A94FD21C82DD4100AFFA5F /* ALTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FC61C82DD4100AFFA5F /* ALTabBarController.m */; };
+		35A94FD31C82DD4100AFFA5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FC71C82DD4100AFFA5F /* main.m */; };
+		35A94FD41C82DD4100AFFA5F /* ALTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FCA1C82DD4100AFFA5F /* ALTabBar.m */; };
 		35B28A1E1C7CAE4200892675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B28A1D1C7CAE4200892675 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3519F44C1C807CC700E07B77 /* ALTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTabBar.h; sourceTree = "<group>"; };
-		3519F44D1C807CC700E07B77 /* ALTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTabBar.m; sourceTree = "<group>"; };
-		352146991C7D98D3006F6CD6 /* ALTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTabBarController.h; sourceTree = "<group>"; };
-		3521469A1C7D98D3006F6CD6 /* ALTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTabBarController.m; sourceTree = "<group>"; };
-		3521469C1C7DA111006F6CD6 /* ALEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEssenceViewController.h; sourceTree = "<group>"; };
-		3521469D1C7DA111006F6CD6 /* ALEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALEssenceViewController.m; sourceTree = "<group>"; };
-		3521469F1C7DA129006F6CD6 /* ALNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNewViewController.h; sourceTree = "<group>"; };
-		352146A01C7DA129006F6CD6 /* ALNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNewViewController.m; sourceTree = "<group>"; };
-		352146A21C7DA13A006F6CD6 /* ALFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALFriendTrendsViewController.h; sourceTree = "<group>"; };
-		352146A31C7DA13A006F6CD6 /* ALFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALFriendTrendsViewController.m; sourceTree = "<group>"; };
-		352146A51C7DA148006F6CD6 /* ALMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMeViewController.h; sourceTree = "<group>"; };
-		352146A61C7DA148006F6CD6 /* ALMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMeViewController.m; sourceTree = "<group>"; };
+		35A94FA51C82DD4100AFFA5F /* ALEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEssenceViewController.h; sourceTree = "<group>"; };
+		35A94FA61C82DD4100AFFA5F /* ALEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALEssenceViewController.m; sourceTree = "<group>"; };
+		35A94FAB1C82DD4100AFFA5F /* ALFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALFriendTrendsViewController.h; sourceTree = "<group>"; };
+		35A94FAC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALFriendTrendsViewController.m; sourceTree = "<group>"; };
+		35A94FB11C82DD4100AFFA5F /* ALMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMeViewController.h; sourceTree = "<group>"; };
+		35A94FB21C82DD4100AFFA5F /* ALMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMeViewController.m; sourceTree = "<group>"; };
+		35A94FB71C82DD4100AFFA5F /* ALNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNewViewController.h; sourceTree = "<group>"; };
+		35A94FB81C82DD4100AFFA5F /* ALNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNewViewController.m; sourceTree = "<group>"; };
+		35A94FBC1C82DD4100AFFA5F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35A94FBD1C82DD4100AFFA5F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35A94FBE1C82DD4100AFFA5F /* BaiSi.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiSi.pch; sourceTree = "<group>"; };
+		35A94FC01C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ALExtension.h"; sourceTree = "<group>"; };
+		35A94FC11C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ALExtension.m"; sourceTree = "<group>"; };
+		35A94FC21C82DD4100AFFA5F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		35A94FC31C82DD4100AFFA5F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		35A94FC51C82DD4100AFFA5F /* ALTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTabBarController.h; sourceTree = "<group>"; };
+		35A94FC61C82DD4100AFFA5F /* ALTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTabBarController.m; sourceTree = "<group>"; };
+		35A94FC71C82DD4100AFFA5F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35A94FC91C82DD4100AFFA5F /* ALTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTabBar.h; sourceTree = "<group>"; };
+		35A94FCA1C82DD4100AFFA5F /* ALTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTabBar.m; sourceTree = "<group>"; };
 		35B28A0E1C7CAE4200892675 /* ArcBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		35B28A121C7CAE4200892675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		35B28A141C7CAE4200892675 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		35B28A151C7CAE4200892675 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		35B28A1D1C7CAE4200892675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35B28A221C7CAE4200892675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +57,193 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35A94FA21C82DD4100AFFA5F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FA31C82DD4100AFFA5F /* Essence */,
+				35A94FA91C82DD4100AFFA5F /* FriendTrends */,
+				35A94FAF1C82DD4100AFFA5F /* Me */,
+				35A94FB51C82DD4100AFFA5F /* New */,
+				35A94FBB1C82DD4100AFFA5F /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		35A94FA31C82DD4100AFFA5F /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FA41C82DD4100AFFA5F /* Controller */,
+				35A94FA71C82DD4100AFFA5F /* Model */,
+				35A94FA81C82DD4100AFFA5F /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		35A94FA41C82DD4100AFFA5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FA51C82DD4100AFFA5F /* ALEssenceViewController.h */,
+				35A94FA61C82DD4100AFFA5F /* ALEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35A94FA71C82DD4100AFFA5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35A94FA81C82DD4100AFFA5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35A94FA91C82DD4100AFFA5F /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FAA1C82DD4100AFFA5F /* Controller */,
+				35A94FAD1C82DD4100AFFA5F /* Model */,
+				35A94FAE1C82DD4100AFFA5F /* View */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		35A94FAA1C82DD4100AFFA5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FAB1C82DD4100AFFA5F /* ALFriendTrendsViewController.h */,
+				35A94FAC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35A94FAD1C82DD4100AFFA5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35A94FAE1C82DD4100AFFA5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35A94FAF1C82DD4100AFFA5F /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FB01C82DD4100AFFA5F /* Controller */,
+				35A94FB31C82DD4100AFFA5F /* Model */,
+				35A94FB41C82DD4100AFFA5F /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		35A94FB01C82DD4100AFFA5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FB11C82DD4100AFFA5F /* ALMeViewController.h */,
+				35A94FB21C82DD4100AFFA5F /* ALMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35A94FB31C82DD4100AFFA5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35A94FB41C82DD4100AFFA5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35A94FB51C82DD4100AFFA5F /* New */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FB61C82DD4100AFFA5F /* Controller */,
+				35A94FB91C82DD4100AFFA5F /* Model */,
+				35A94FBA1C82DD4100AFFA5F /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		35A94FB61C82DD4100AFFA5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FB71C82DD4100AFFA5F /* ALNewViewController.h */,
+				35A94FB81C82DD4100AFFA5F /* ALNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35A94FB91C82DD4100AFFA5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35A94FBA1C82DD4100AFFA5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35A94FBB1C82DD4100AFFA5F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FBF1C82DD4100AFFA5F /* Category */,
+				35A94FC41C82DD4100AFFA5F /* Controller */,
+				35A94FC81C82DD4100AFFA5F /* View */,
+				35A94FBC1C82DD4100AFFA5F /* AppDelegate.h */,
+				35A94FBD1C82DD4100AFFA5F /* AppDelegate.m */,
+				35A94FBE1C82DD4100AFFA5F /* BaiSi.pch */,
+				35A94FC71C82DD4100AFFA5F /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		35A94FBF1C82DD4100AFFA5F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FC01C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.h */,
+				35A94FC11C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.m */,
+				35A94FC21C82DD4100AFFA5F /* UIView+Frame.h */,
+				35A94FC31C82DD4100AFFA5F /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		35A94FC41C82DD4100AFFA5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FC51C82DD4100AFFA5F /* ALTabBarController.h */,
+				35A94FC61C82DD4100AFFA5F /* ALTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35A94FC81C82DD4100AFFA5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35A94FC91C82DD4100AFFA5F /* ALTabBar.h */,
+				35A94FCA1C82DD4100AFFA5F /* ALTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		35B28A051C7CAE4200892675 = {
 			isa = PBXGroup;
 			children = (
@@ -69,20 +263,7 @@
 		35B28A101C7CAE4200892675 /* ArcBaiSi */ = {
 			isa = PBXGroup;
 			children = (
-				35B28A141C7CAE4200892675 /* AppDelegate.h */,
-				35B28A151C7CAE4200892675 /* AppDelegate.m */,
-				3521469C1C7DA111006F6CD6 /* ALEssenceViewController.h */,
-				3521469D1C7DA111006F6CD6 /* ALEssenceViewController.m */,
-				3521469F1C7DA129006F6CD6 /* ALNewViewController.h */,
-				352146A01C7DA129006F6CD6 /* ALNewViewController.m */,
-				352146A21C7DA13A006F6CD6 /* ALFriendTrendsViewController.h */,
-				352146A31C7DA13A006F6CD6 /* ALFriendTrendsViewController.m */,
-				352146A51C7DA148006F6CD6 /* ALMeViewController.h */,
-				352146A61C7DA148006F6CD6 /* ALMeViewController.m */,
-				352146991C7D98D3006F6CD6 /* ALTabBarController.h */,
-				3521469A1C7D98D3006F6CD6 /* ALTabBarController.m */,
-				3519F44C1C807CC700E07B77 /* ALTabBar.h */,
-				3519F44D1C807CC700E07B77 /* ALTabBar.m */,
+				35A94FA21C82DD4100AFFA5F /* Classes */,
 				35B28A111C7CAE4200892675 /* Supporting Files */,
 			);
 			path = ArcBaiSi;
@@ -93,7 +274,6 @@
 			children = (
 				35B28A1D1C7CAE4200892675 /* Assets.xcassets */,
 				35B28A221C7CAE4200892675 /* Info.plist */,
-				35B28A121C7CAE4200892675 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,14 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B28A161C7CAE4200892675 /* AppDelegate.m in Sources */,
-				352146A41C7DA13A006F6CD6 /* ALFriendTrendsViewController.m in Sources */,
-				352146A11C7DA129006F6CD6 /* ALNewViewController.m in Sources */,
-				35B28A131C7CAE4200892675 /* main.m in Sources */,
-				3521469E1C7DA111006F6CD6 /* ALEssenceViewController.m in Sources */,
-				352146A71C7DA148006F6CD6 /* ALMeViewController.m in Sources */,
-				3519F44E1C807CC700E07B77 /* ALTabBar.m in Sources */,
-				3521469B1C7D98D3006F6CD6 /* ALTabBarController.m in Sources */,
+				35A94FCD1C82DD4100AFFA5F /* ALMeViewController.m in Sources */,
+				35A94FD01C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.m in Sources */,
+				35A94FCB1C82DD4100AFFA5F /* ALEssenceViewController.m in Sources */,
+				35A94FD11C82DD4100AFFA5F /* UIView+Frame.m in Sources */,
+				35A94FD21C82DD4100AFFA5F /* ALTabBarController.m in Sources */,
+				35A94FCE1C82DD4100AFFA5F /* ALNewViewController.m in Sources */,
+				35A94FCC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m in Sources */,
+				35A94FD31C82DD4100AFFA5F /* main.m in Sources */,
+				35A94FD41C82DD4100AFFA5F /* ALTabBar.m in Sources */,
+				35A94FCF1C82DD4100AFFA5F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = ArcBaiSi/Classes/Other/BaiSi.pch;
 				INFOPLIST_FILE = ArcBaiSi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -282,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = ArcBaiSi/Classes/Other/BaiSi.pch;
 				INFOPLIST_FILE = ArcBaiSi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -45,16 +45,21 @@
     
     // 更改类
     [self setValue:[[ALTabBar alloc] init] forKeyPath:@"tabBar"];
+
 }
 
 #pragma mark 初始化子控制器
 - (void)setUpChildVc:(UIViewController  *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage
 {
-    vc.tabBarItem.title = title;
+    vc.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
-    vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1.0];
-    [self addChildViewController:vc];
+    vc.view.backgroundColor = ALRGBColor(233, 233, 233);
+    //  包装一个导航控制器，添加导航控制器为tabBarController的子控制器
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+    [self addChildViewController:nav];
+    
 }
 
 - (void)didReceiveMemoryWarning {
