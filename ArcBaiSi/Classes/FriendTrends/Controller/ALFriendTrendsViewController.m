@@ -7,6 +7,7 @@
 //
 
 #import "ALFriendTrendsViewController.h"
+#import "ALRecommendViewController.h"
 
 @interface ALFriendTrendsViewController ()
 
@@ -27,7 +28,8 @@
 }
 - (void)friendsClick
 {
-    ALLog(@"");
+    ALRecommendViewController *vc = [[ALRecommendViewController  alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

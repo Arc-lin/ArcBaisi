@@ -11,6 +11,7 @@
 #import "ALNewViewController.h"
 #import "ALFriendTrendsViewController.h"
 #import "ALMeViewController.h"
+#import "ALNavigationController.h"
 #import "ALTabBar.h"
 
 @interface ALTabBarController ()
@@ -56,7 +57,7 @@
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
     vc.view.backgroundColor = ALRGBColor(233, 233, 233);
     //  包装一个导航控制器，添加导航控制器为tabBarController的子控制器
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    ALNavigationController *nav = [[ALNavigationController alloc] initWithRootViewController:vc];
     [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
     [self addChildViewController:nav];
     
