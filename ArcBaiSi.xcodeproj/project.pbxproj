@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3522A03B1CB75368008878B1 /* ALRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3522A0391CB75368008878B1 /* ALRecommendUserCell.m */; };
+		3522A03C1CB75368008878B1 /* ALRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3522A03A1CB75368008878B1 /* ALRecommendUserCell.xib */; };
+		3522A03F1CB7544D008878B1 /* ALRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3522A03E1CB7544D008878B1 /* ALRecommendUser.m */; };
 		356B65A01CB4966900E8208A /* ALFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356B659F1CB4966900E8208A /* ALFriendTrendsViewController.xib */; };
 		356B65A41CB49AEB00E8208A /* ALRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B65A21CB49AEB00E8208A /* ALRecommendViewController.m */; };
 		356B65A51CB49AEB00E8208A /* ALRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356B65A31CB49AEB00E8208A /* ALRecommendViewController.xib */; };
@@ -22,11 +25,20 @@
 		35A94FD21C82DD4100AFFA5F /* ALTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FC61C82DD4100AFFA5F /* ALTabBarController.m */; };
 		35A94FD31C82DD4100AFFA5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FC71C82DD4100AFFA5F /* main.m */; };
 		35A94FD41C82DD4100AFFA5F /* ALTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FCA1C82DD4100AFFA5F /* ALTabBar.m */; };
+		35AD54B51CBD1D170053E8F5 /* ALRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD54B41CBD1D170053E8F5 /* ALRecommendTagsViewController.m */; };
+		35AEC8661CB6396B00608571 /* ALRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AEC8651CB6396B00608571 /* ALRecommendCategory.m */; };
+		35AEC86D1CB6481900608571 /* ALRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AEC86B1CB6481900608571 /* ALRecommendCategoryCell.m */; };
+		35AEC86E1CB6481900608571 /* ALRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35AEC86C1CB6481900608571 /* ALRecommendCategoryCell.xib */; };
 		35B28A1E1C7CAE4200892675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B28A1D1C7CAE4200892675 /* Assets.xcassets */; };
 		E1C59303C9499D0DE5AAE7D1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55731C146E65F270B029DE3F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3522A0381CB75368008878B1 /* ALRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendUserCell.h; sourceTree = "<group>"; };
+		3522A0391CB75368008878B1 /* ALRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendUserCell.m; sourceTree = "<group>"; };
+		3522A03A1CB75368008878B1 /* ALRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALRecommendUserCell.xib; sourceTree = "<group>"; };
+		3522A03D1CB7544D008878B1 /* ALRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendUser.h; sourceTree = "<group>"; };
+		3522A03E1CB7544D008878B1 /* ALRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendUser.m; sourceTree = "<group>"; };
 		356B659F1CB4966900E8208A /* ALFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		356B65A11CB49AEB00E8208A /* ALRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendViewController.h; sourceTree = "<group>"; };
 		356B65A21CB49AEB00E8208A /* ALRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendViewController.m; sourceTree = "<group>"; };
@@ -54,6 +66,13 @@
 		35A94FC71C82DD4100AFFA5F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35A94FC91C82DD4100AFFA5F /* ALTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTabBar.h; sourceTree = "<group>"; };
 		35A94FCA1C82DD4100AFFA5F /* ALTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTabBar.m; sourceTree = "<group>"; };
+		35AD54B31CBD1D170053E8F5 /* ALRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendTagsViewController.h; sourceTree = "<group>"; };
+		35AD54B41CBD1D170053E8F5 /* ALRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendTagsViewController.m; sourceTree = "<group>"; };
+		35AEC8641CB6396B00608571 /* ALRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendCategory.h; sourceTree = "<group>"; };
+		35AEC8651CB6396B00608571 /* ALRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendCategory.m; sourceTree = "<group>"; };
+		35AEC86A1CB6481900608571 /* ALRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendCategoryCell.h; sourceTree = "<group>"; };
+		35AEC86B1CB6481900608571 /* ALRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendCategoryCell.m; sourceTree = "<group>"; };
+		35AEC86C1CB6481900608571 /* ALRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALRecommendCategoryCell.xib; sourceTree = "<group>"; };
 		35B28A0E1C7CAE4200892675 /* ArcBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B28A1D1C7CAE4200892675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35B28A221C7CAE4200892675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +120,8 @@
 			children = (
 				35A94FA51C82DD4100AFFA5F /* ALEssenceViewController.h */,
 				35A94FA61C82DD4100AFFA5F /* ALEssenceViewController.m */,
+				35AD54B31CBD1D170053E8F5 /* ALRecommendTagsViewController.h */,
+				35AD54B41CBD1D170053E8F5 /* ALRecommendTagsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -145,6 +166,10 @@
 		35A94FAD1C82DD4100AFFA5F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				35AEC8641CB6396B00608571 /* ALRecommendCategory.h */,
+				35AEC8651CB6396B00608571 /* ALRecommendCategory.m */,
+				3522A03D1CB7544D008878B1 /* ALRecommendUser.h */,
+				3522A03E1CB7544D008878B1 /* ALRecommendUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +177,12 @@
 		35A94FAE1C82DD4100AFFA5F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				35AEC86A1CB6481900608571 /* ALRecommendCategoryCell.h */,
+				35AEC86B1CB6481900608571 /* ALRecommendCategoryCell.m */,
+				35AEC86C1CB6481900608571 /* ALRecommendCategoryCell.xib */,
+				3522A0381CB75368008878B1 /* ALRecommendUserCell.h */,
+				3522A0391CB75368008878B1 /* ALRecommendUserCell.m */,
+				3522A03A1CB75368008878B1 /* ALRecommendUserCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -384,6 +415,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				356B65A01CB4966900E8208A /* ALFriendTrendsViewController.xib in Resources */,
+				3522A03C1CB75368008878B1 /* ALRecommendUserCell.xib in Resources */,
+				35AEC86E1CB6481900608571 /* ALRecommendCategoryCell.xib in Resources */,
 				35B28A1E1C7CAE4200892675 /* Assets.xcassets in Resources */,
 				356B65A51CB49AEB00E8208A /* ALRecommendViewController.xib in Resources */,
 			);
@@ -448,13 +481,18 @@
 				35A94FD01C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.m in Sources */,
 				35A94FCB1C82DD4100AFFA5F /* ALEssenceViewController.m in Sources */,
 				35A94FD11C82DD4100AFFA5F /* UIView+Frame.m in Sources */,
+				35AEC86D1CB6481900608571 /* ALRecommendCategoryCell.m in Sources */,
 				356B65A41CB49AEB00E8208A /* ALRecommendViewController.m in Sources */,
+				3522A03B1CB75368008878B1 /* ALRecommendUserCell.m in Sources */,
 				35A94FD21C82DD4100AFFA5F /* ALTabBarController.m in Sources */,
 				35A94FCE1C82DD4100AFFA5F /* ALNewViewController.m in Sources */,
+				35AEC8661CB6396B00608571 /* ALRecommendCategory.m in Sources */,
+				3522A03F1CB7544D008878B1 /* ALRecommendUser.m in Sources */,
 				35A94FCC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m in Sources */,
 				35A94FD31C82DD4100AFFA5F /* main.m in Sources */,
 				35A94FD41C82DD4100AFFA5F /* ALTabBar.m in Sources */,
 				356B65AC1CB4A23700E8208A /* ALNavigationController.m in Sources */,
+				35AD54B51CBD1D170053E8F5 /* ALRecommendTagsViewController.m in Sources */,
 				356B65A91CB49EA500E8208A /* Foundation+Log.m in Sources */,
 				35A94FCF1C82DD4100AFFA5F /* AppDelegate.m in Sources */,
 			);

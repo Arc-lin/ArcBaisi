@@ -7,6 +7,7 @@
 //
 
 #import "ALEssenceViewController.h"
+#import "ALRecommendTagsViewController.h"
 
 @interface ALEssenceViewController ()
 
@@ -29,7 +30,8 @@
 
 - (void)tagButtonClick
 {
-    ALLog(@"");
+    ALRecommendTagsViewController *tags = [[ALRecommendTagsViewController alloc] init];
+    [self.navigationController pushViewController:tags animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
