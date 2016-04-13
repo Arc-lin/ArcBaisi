@@ -10,11 +10,16 @@
 		3522A03B1CB75368008878B1 /* ALRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3522A0391CB75368008878B1 /* ALRecommendUserCell.m */; };
 		3522A03C1CB75368008878B1 /* ALRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3522A03A1CB75368008878B1 /* ALRecommendUserCell.xib */; };
 		3522A03F1CB7544D008878B1 /* ALRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3522A03E1CB7544D008878B1 /* ALRecommendUser.m */; };
+		352C84941CBDCFB600F10B8B /* ALRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C84921CBDCFB600F10B8B /* ALRecommendTagCell.m */; };
+		352C84951CBDCFB600F10B8B /* ALRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352C84931CBDCFB600F10B8B /* ALRecommendTagCell.xib */; };
+		352C84981CBDCFBC00F10B8B /* ALRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C84971CBDCFBC00F10B8B /* ALRecommendTag.m */; };
 		356B65A01CB4966900E8208A /* ALFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356B659F1CB4966900E8208A /* ALFriendTrendsViewController.xib */; };
 		356B65A41CB49AEB00E8208A /* ALRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B65A21CB49AEB00E8208A /* ALRecommendViewController.m */; };
 		356B65A51CB49AEB00E8208A /* ALRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356B65A31CB49AEB00E8208A /* ALRecommendViewController.xib */; };
 		356B65A91CB49EA500E8208A /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B65A81CB49EA500E8208A /* Foundation+Log.m */; };
 		356B65AC1CB4A23700E8208A /* ALNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B65AB1CB4A23700E8208A /* ALNavigationController.m */; };
+		35A0C53B1CBE8E6600AC2565 /* ALLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A0C5391CBE8E6600AC2565 /* ALLoginRegisterViewController.m */; };
+		35A0C53C1CBE8E6600AC2565 /* ALLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35A0C53A1CBE8E6600AC2565 /* ALLoginRegisterViewController.xib */; };
 		35A94FCB1C82DD4100AFFA5F /* ALEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FA61C82DD4100AFFA5F /* ALEssenceViewController.m */; };
 		35A94FCC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FAC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m */; };
 		35A94FCD1C82DD4100AFFA5F /* ALMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FB21C82DD4100AFFA5F /* ALMeViewController.m */; };
@@ -39,6 +44,11 @@
 		3522A03A1CB75368008878B1 /* ALRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALRecommendUserCell.xib; sourceTree = "<group>"; };
 		3522A03D1CB7544D008878B1 /* ALRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendUser.h; sourceTree = "<group>"; };
 		3522A03E1CB7544D008878B1 /* ALRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendUser.m; sourceTree = "<group>"; };
+		352C84911CBDCFB600F10B8B /* ALRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendTagCell.h; sourceTree = "<group>"; };
+		352C84921CBDCFB600F10B8B /* ALRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendTagCell.m; sourceTree = "<group>"; };
+		352C84931CBDCFB600F10B8B /* ALRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALRecommendTagCell.xib; sourceTree = "<group>"; };
+		352C84961CBDCFBC00F10B8B /* ALRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendTag.h; sourceTree = "<group>"; };
+		352C84971CBDCFBC00F10B8B /* ALRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendTag.m; sourceTree = "<group>"; };
 		356B659F1CB4966900E8208A /* ALFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		356B65A11CB49AEB00E8208A /* ALRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendViewController.h; sourceTree = "<group>"; };
 		356B65A21CB49AEB00E8208A /* ALRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendViewController.m; sourceTree = "<group>"; };
@@ -46,6 +56,9 @@
 		356B65A81CB49EA500E8208A /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		356B65AA1CB4A23700E8208A /* ALNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNavigationController.h; sourceTree = "<group>"; };
 		356B65AB1CB4A23700E8208A /* ALNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNavigationController.m; sourceTree = "<group>"; };
+		35A0C5381CBE8E6600AC2565 /* ALLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLoginRegisterViewController.h; sourceTree = "<group>"; };
+		35A0C5391CBE8E6600AC2565 /* ALLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLoginRegisterViewController.m; sourceTree = "<group>"; };
+		35A0C53A1CBE8E6600AC2565 /* ALLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALLoginRegisterViewController.xib; sourceTree = "<group>"; };
 		35A94FA51C82DD4100AFFA5F /* ALEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEssenceViewController.h; sourceTree = "<group>"; };
 		35A94FA61C82DD4100AFFA5F /* ALEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALEssenceViewController.m; sourceTree = "<group>"; };
 		35A94FAB1C82DD4100AFFA5F /* ALFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -129,6 +142,8 @@
 		35A94FA71C82DD4100AFFA5F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				352C84961CBDCFBC00F10B8B /* ALRecommendTag.h */,
+				352C84971CBDCFBC00F10B8B /* ALRecommendTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -136,6 +151,9 @@
 		35A94FA81C82DD4100AFFA5F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				352C84911CBDCFB600F10B8B /* ALRecommendTagCell.h */,
+				352C84921CBDCFB600F10B8B /* ALRecommendTagCell.m */,
+				352C84931CBDCFB600F10B8B /* ALRecommendTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,6 +177,9 @@
 				356B65A11CB49AEB00E8208A /* ALRecommendViewController.h */,
 				356B65A21CB49AEB00E8208A /* ALRecommendViewController.m */,
 				356B65A31CB49AEB00E8208A /* ALRecommendViewController.xib */,
+				35A0C5381CBE8E6600AC2565 /* ALLoginRegisterViewController.h */,
+				35A0C5391CBE8E6600AC2565 /* ALLoginRegisterViewController.m */,
+				35A0C53A1CBE8E6600AC2565 /* ALLoginRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -418,7 +439,9 @@
 				3522A03C1CB75368008878B1 /* ALRecommendUserCell.xib in Resources */,
 				35AEC86E1CB6481900608571 /* ALRecommendCategoryCell.xib in Resources */,
 				35B28A1E1C7CAE4200892675 /* Assets.xcassets in Resources */,
+				35A0C53C1CBE8E6600AC2565 /* ALLoginRegisterViewController.xib in Resources */,
 				356B65A51CB49AEB00E8208A /* ALRecommendViewController.xib in Resources */,
+				352C84951CBDCFB600F10B8B /* ALRecommendTagCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +510,9 @@
 				35A94FD21C82DD4100AFFA5F /* ALTabBarController.m in Sources */,
 				35A94FCE1C82DD4100AFFA5F /* ALNewViewController.m in Sources */,
 				35AEC8661CB6396B00608571 /* ALRecommendCategory.m in Sources */,
+				352C84941CBDCFB600F10B8B /* ALRecommendTagCell.m in Sources */,
+				35A0C53B1CBE8E6600AC2565 /* ALLoginRegisterViewController.m in Sources */,
+				352C84981CBDCFBC00F10B8B /* ALRecommendTag.m in Sources */,
 				3522A03F1CB7544D008878B1 /* ALRecommendUser.m in Sources */,
 				35A94FCC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m in Sources */,
 				35A94FD31C82DD4100AFFA5F /* main.m in Sources */,

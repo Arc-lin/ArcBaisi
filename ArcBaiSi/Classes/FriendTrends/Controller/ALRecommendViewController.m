@@ -8,9 +8,6 @@
 
 #import "ALRecommendViewController.h"
 
-#import <AFNetworking.h>
-#import <SVProgressHUD.h>
-#import <MJExtension.h>
 #import <MJRefresh.h>
 
 #import "ALRecommendCategoryCell.h"
@@ -108,7 +105,7 @@ static NSString * const ALUserCellId = @"user";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"category";
     params[@"c"] = @"subscribe";
-    
+
     [self.manager GET:@"http://api.budejie.com/api/api_open.php" parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         // 隐藏指示器
         [SVProgressHUD dismiss];

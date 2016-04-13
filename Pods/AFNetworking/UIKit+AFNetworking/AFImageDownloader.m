@@ -125,7 +125,7 @@
 
     configuration.requestCachePolicy = NSURLRequestUseProtocolCachePolicy;
     configuration.allowsCellularAccess = YES;
-    configuration.timeoutIntervalForRequest = 60.0;
+    configuration.timeoutIntervalForRequest = 15.0;
     configuration.URLCache = [AFImageDownloader defaultURLCache];
 
     return configuration;

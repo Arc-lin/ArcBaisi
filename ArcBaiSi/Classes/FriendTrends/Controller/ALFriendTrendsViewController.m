@@ -8,6 +8,7 @@
 
 #import "ALFriendTrendsViewController.h"
 #import "ALRecommendViewController.h"
+#import "ALLoginRegisterViewController.h"
 
 @interface ALFriendTrendsViewController ()
 
@@ -32,20 +33,18 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
+- (IBAction)loginRegisterBtnClick:(id)sender {
+    // 会自动注册对应的xib
+    ALLoginRegisterViewController *vc = [[ALLoginRegisterViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
