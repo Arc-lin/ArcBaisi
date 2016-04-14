@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ALTabBarController.h"
+#import "ALPushGuideView.h"
 
 @interface AppDelegate ()
 
@@ -28,6 +29,9 @@
     
     // 显示窗口
     [self.window makeKeyAndVisible];
+    
+    // 显示推送引导
+    [ALPushGuideView show];
     
     return YES;
 }

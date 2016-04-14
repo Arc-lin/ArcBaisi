@@ -36,6 +36,8 @@
 		35AEC86D1CB6481900608571 /* ALRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AEC86B1CB6481900608571 /* ALRecommendCategoryCell.m */; };
 		35AEC86E1CB6481900608571 /* ALRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35AEC86C1CB6481900608571 /* ALRecommendCategoryCell.xib */; };
 		35B28A1E1C7CAE4200892675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B28A1D1C7CAE4200892675 /* Assets.xcassets */; };
+		35BE2A591CBFDA86006B5EAE /* ALPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BE2A581CBFDA86006B5EAE /* ALPushGuideView.m */; };
+		35BE2A5B1CBFDA94006B5EAE /* ALPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BE2A5A1CBFDA94006B5EAE /* ALPushGuideView.xib */; };
 		35D754AE1CBF2397009AB01C /* ALTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D754AD1CBF2397009AB01C /* ALTextFiled.m */; };
 		E1C59303C9499D0DE5AAE7D1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55731C146E65F270B029DE3F /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -93,6 +95,9 @@
 		35B28A0E1C7CAE4200892675 /* ArcBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B28A1D1C7CAE4200892675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35B28A221C7CAE4200892675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35BE2A571CBFDA86006B5EAE /* ALPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALPushGuideView.h; sourceTree = "<group>"; };
+		35BE2A581CBFDA86006B5EAE /* ALPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALPushGuideView.m; sourceTree = "<group>"; };
+		35BE2A5A1CBFDA94006B5EAE /* ALPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALPushGuideView.xib; sourceTree = "<group>"; };
 		35D754AC1CBF2397009AB01C /* ALTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTextFiled.h; sourceTree = "<group>"; };
 		35D754AD1CBF2397009AB01C /* ALTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTextFiled.m; sourceTree = "<group>"; };
 		365877BDE4215FC76513F2D0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -326,6 +331,9 @@
 			children = (
 				35A94FC91C82DD4100AFFA5F /* ALTabBar.h */,
 				35A94FCA1C82DD4100AFFA5F /* ALTabBar.m */,
+				35BE2A571CBFDA86006B5EAE /* ALPushGuideView.h */,
+				35BE2A581CBFDA86006B5EAE /* ALPushGuideView.m */,
+				35BE2A5A1CBFDA94006B5EAE /* ALPushGuideView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -447,6 +455,7 @@
 			files = (
 				356B65A01CB4966900E8208A /* ALFriendTrendsViewController.xib in Resources */,
 				3522A03C1CB75368008878B1 /* ALRecommendUserCell.xib in Resources */,
+				35BE2A5B1CBFDA94006B5EAE /* ALPushGuideView.xib in Resources */,
 				35AEC86E1CB6481900608571 /* ALRecommendCategoryCell.xib in Resources */,
 				35B28A1E1C7CAE4200892675 /* Assets.xcassets in Resources */,
 				35A0C53C1CBE8E6600AC2565 /* ALLoginRegisterViewController.xib in Resources */,
@@ -520,6 +529,7 @@
 				3522A03B1CB75368008878B1 /* ALRecommendUserCell.m in Sources */,
 				35A94FD21C82DD4100AFFA5F /* ALTabBarController.m in Sources */,
 				35A94FCE1C82DD4100AFFA5F /* ALNewViewController.m in Sources */,
+				35BE2A591CBFDA86006B5EAE /* ALPushGuideView.m in Sources */,
 				35AEC8661CB6396B00608571 /* ALRecommendCategory.m in Sources */,
 				352C84941CBDCFB600F10B8B /* ALRecommendTagCell.m in Sources */,
 				35A0C53B1CBE8E6600AC2565 /* ALLoginRegisterViewController.m in Sources */,
