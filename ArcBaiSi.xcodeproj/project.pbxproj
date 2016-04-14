@@ -20,6 +20,7 @@
 		356B65AC1CB4A23700E8208A /* ALNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B65AB1CB4A23700E8208A /* ALNavigationController.m */; };
 		35A0C53B1CBE8E6600AC2565 /* ALLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A0C5391CBE8E6600AC2565 /* ALLoginRegisterViewController.m */; };
 		35A0C53C1CBE8E6600AC2565 /* ALLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35A0C53A1CBE8E6600AC2565 /* ALLoginRegisterViewController.xib */; };
+		35A0C53F1CBEA21800AC2565 /* ALVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A0C53E1CBEA21800AC2565 /* ALVerticalButton.m */; };
 		35A94FCB1C82DD4100AFFA5F /* ALEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FA61C82DD4100AFFA5F /* ALEssenceViewController.m */; };
 		35A94FCC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FAC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m */; };
 		35A94FCD1C82DD4100AFFA5F /* ALMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A94FB21C82DD4100AFFA5F /* ALMeViewController.m */; };
@@ -35,6 +36,7 @@
 		35AEC86D1CB6481900608571 /* ALRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AEC86B1CB6481900608571 /* ALRecommendCategoryCell.m */; };
 		35AEC86E1CB6481900608571 /* ALRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35AEC86C1CB6481900608571 /* ALRecommendCategoryCell.xib */; };
 		35B28A1E1C7CAE4200892675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B28A1D1C7CAE4200892675 /* Assets.xcassets */; };
+		35D754AE1CBF2397009AB01C /* ALTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D754AD1CBF2397009AB01C /* ALTextFiled.m */; };
 		E1C59303C9499D0DE5AAE7D1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55731C146E65F270B029DE3F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		35A0C5381CBE8E6600AC2565 /* ALLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLoginRegisterViewController.h; sourceTree = "<group>"; };
 		35A0C5391CBE8E6600AC2565 /* ALLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLoginRegisterViewController.m; sourceTree = "<group>"; };
 		35A0C53A1CBE8E6600AC2565 /* ALLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		35A0C53D1CBEA21800AC2565 /* ALVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALVerticalButton.h; sourceTree = "<group>"; };
+		35A0C53E1CBEA21800AC2565 /* ALVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALVerticalButton.m; sourceTree = "<group>"; };
 		35A94FA51C82DD4100AFFA5F /* ALEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEssenceViewController.h; sourceTree = "<group>"; };
 		35A94FA61C82DD4100AFFA5F /* ALEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALEssenceViewController.m; sourceTree = "<group>"; };
 		35A94FAB1C82DD4100AFFA5F /* ALFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 		35B28A0E1C7CAE4200892675 /* ArcBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B28A1D1C7CAE4200892675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35B28A221C7CAE4200892675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35D754AC1CBF2397009AB01C /* ALTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTextFiled.h; sourceTree = "<group>"; };
+		35D754AD1CBF2397009AB01C /* ALTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTextFiled.m; sourceTree = "<group>"; };
 		365877BDE4215FC76513F2D0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4CDC449A90CD01718A97F0F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		55731C146E65F270B029DE3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,6 +210,10 @@
 				3522A0381CB75368008878B1 /* ALRecommendUserCell.h */,
 				3522A0391CB75368008878B1 /* ALRecommendUserCell.m */,
 				3522A03A1CB75368008878B1 /* ALRecommendUserCell.xib */,
+				35A0C53D1CBEA21800AC2565 /* ALVerticalButton.h */,
+				35A0C53E1CBEA21800AC2565 /* ALVerticalButton.m */,
+				35D754AC1CBF2397009AB01C /* ALTextFiled.h */,
+				35D754AD1CBF2397009AB01C /* ALTextFiled.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -382,8 +392,8 @@
 			buildPhases = (
 				980793CDF1CDCE43B6057151 /* Check Pods Manifest.lock */,
 				35B28A0A1C7CAE4200892675 /* Sources */,
-				35B28A0B1C7CAE4200892675 /* Frameworks */,
 				35B28A0C1C7CAE4200892675 /* Resources */,
+				35B28A0B1C7CAE4200892675 /* Frameworks */,
 				E1E4C9524B2BDE9E99BD8AAF /* Embed Pods Frameworks */,
 				5968363A8AD6C26C11A3F8A6 /* Copy Pods Resources */,
 			);
@@ -500,6 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D754AE1CBF2397009AB01C /* ALTextFiled.m in Sources */,
 				35A94FCD1C82DD4100AFFA5F /* ALMeViewController.m in Sources */,
 				35A94FD01C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.m in Sources */,
 				35A94FCB1C82DD4100AFFA5F /* ALEssenceViewController.m in Sources */,
@@ -516,6 +527,7 @@
 				3522A03F1CB7544D008878B1 /* ALRecommendUser.m in Sources */,
 				35A94FCC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m in Sources */,
 				35A94FD31C82DD4100AFFA5F /* main.m in Sources */,
+				35A0C53F1CBEA21800AC2565 /* ALVerticalButton.m in Sources */,
 				35A94FD41C82DD4100AFFA5F /* ALTabBar.m in Sources */,
 				356B65AC1CB4A23700E8208A /* ALNavigationController.m in Sources */,
 				35AD54B51CBD1D170053E8F5 /* ALRecommendTagsViewController.m in Sources */,
