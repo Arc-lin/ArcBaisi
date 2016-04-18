@@ -13,6 +13,11 @@
 		352C84941CBDCFB600F10B8B /* ALRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C84921CBDCFB600F10B8B /* ALRecommendTagCell.m */; };
 		352C84951CBDCFB600F10B8B /* ALRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352C84931CBDCFB600F10B8B /* ALRecommendTagCell.xib */; };
 		352C84981CBDCFBC00F10B8B /* ALRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C84971CBDCFBC00F10B8B /* ALRecommendTag.m */; };
+		356724FB1CC472D6008FE793 /* ALAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356724FA1CC472D6008FE793 /* ALAllViewController.m */; };
+		356724FE1CC472EC008FE793 /* ALVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356724FD1CC472EC008FE793 /* ALVideoViewController.m */; };
+		356725011CC472FA008FE793 /* ALVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356725001CC472FA008FE793 /* ALVoiceViewController.m */; };
+		356725041CC47307008FE793 /* ALPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356725031CC47307008FE793 /* ALPictureViewController.m */; };
+		356725071CC47313008FE793 /* ALWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356725061CC47313008FE793 /* ALWordViewController.m */; };
 		356B65A01CB4966900E8208A /* ALFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356B659F1CB4966900E8208A /* ALFriendTrendsViewController.xib */; };
 		356B65A41CB49AEB00E8208A /* ALRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B65A21CB49AEB00E8208A /* ALRecommendViewController.m */; };
 		356B65A51CB49AEB00E8208A /* ALRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356B65A31CB49AEB00E8208A /* ALRecommendViewController.xib */; };
@@ -53,6 +58,16 @@
 		352C84931CBDCFB600F10B8B /* ALRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALRecommendTagCell.xib; sourceTree = "<group>"; };
 		352C84961CBDCFBC00F10B8B /* ALRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendTag.h; sourceTree = "<group>"; };
 		352C84971CBDCFBC00F10B8B /* ALRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendTag.m; sourceTree = "<group>"; };
+		356724F91CC472D6008FE793 /* ALAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAllViewController.h; sourceTree = "<group>"; };
+		356724FA1CC472D6008FE793 /* ALAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAllViewController.m; sourceTree = "<group>"; };
+		356724FC1CC472EC008FE793 /* ALVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALVideoViewController.h; sourceTree = "<group>"; };
+		356724FD1CC472EC008FE793 /* ALVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALVideoViewController.m; sourceTree = "<group>"; };
+		356724FF1CC472FA008FE793 /* ALVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALVoiceViewController.h; sourceTree = "<group>"; };
+		356725001CC472FA008FE793 /* ALVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALVoiceViewController.m; sourceTree = "<group>"; };
+		356725021CC47307008FE793 /* ALPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALPictureViewController.h; sourceTree = "<group>"; };
+		356725031CC47307008FE793 /* ALPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALPictureViewController.m; sourceTree = "<group>"; };
+		356725051CC47313008FE793 /* ALWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALWordViewController.h; sourceTree = "<group>"; };
+		356725061CC47313008FE793 /* ALWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALWordViewController.m; sourceTree = "<group>"; };
 		356B659F1CB4966900E8208A /* ALFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		356B65A11CB49AEB00E8208A /* ALRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendViewController.h; sourceTree = "<group>"; };
 		356B65A21CB49AEB00E8208A /* ALRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendViewController.m; sourceTree = "<group>"; };
@@ -146,6 +161,16 @@
 				35A94FA61C82DD4100AFFA5F /* ALEssenceViewController.m */,
 				35AD54B31CBD1D170053E8F5 /* ALRecommendTagsViewController.h */,
 				35AD54B41CBD1D170053E8F5 /* ALRecommendTagsViewController.m */,
+				356724F91CC472D6008FE793 /* ALAllViewController.h */,
+				356724FA1CC472D6008FE793 /* ALAllViewController.m */,
+				356724FC1CC472EC008FE793 /* ALVideoViewController.h */,
+				356724FD1CC472EC008FE793 /* ALVideoViewController.m */,
+				356724FF1CC472FA008FE793 /* ALVoiceViewController.h */,
+				356725001CC472FA008FE793 /* ALVoiceViewController.m */,
+				356725021CC47307008FE793 /* ALPictureViewController.h */,
+				356725031CC47307008FE793 /* ALPictureViewController.m */,
+				356725051CC47313008FE793 /* ALWordViewController.h */,
+				356725061CC47313008FE793 /* ALWordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -520,6 +545,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D754AE1CBF2397009AB01C /* ALTextFiled.m in Sources */,
+				356725071CC47313008FE793 /* ALWordViewController.m in Sources */,
+				356724FB1CC472D6008FE793 /* ALAllViewController.m in Sources */,
 				35A94FCD1C82DD4100AFFA5F /* ALMeViewController.m in Sources */,
 				35A94FD01C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.m in Sources */,
 				35A94FCB1C82DD4100AFFA5F /* ALEssenceViewController.m in Sources */,
@@ -529,16 +556,19 @@
 				3522A03B1CB75368008878B1 /* ALRecommendUserCell.m in Sources */,
 				35A94FD21C82DD4100AFFA5F /* ALTabBarController.m in Sources */,
 				35A94FCE1C82DD4100AFFA5F /* ALNewViewController.m in Sources */,
+				356724FE1CC472EC008FE793 /* ALVideoViewController.m in Sources */,
 				35BE2A591CBFDA86006B5EAE /* ALPushGuideView.m in Sources */,
 				35AEC8661CB6396B00608571 /* ALRecommendCategory.m in Sources */,
 				352C84941CBDCFB600F10B8B /* ALRecommendTagCell.m in Sources */,
 				35A0C53B1CBE8E6600AC2565 /* ALLoginRegisterViewController.m in Sources */,
+				356725041CC47307008FE793 /* ALPictureViewController.m in Sources */,
 				352C84981CBDCFBC00F10B8B /* ALRecommendTag.m in Sources */,
 				3522A03F1CB7544D008878B1 /* ALRecommendUser.m in Sources */,
 				35A94FCC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m in Sources */,
 				35A94FD31C82DD4100AFFA5F /* main.m in Sources */,
 				35A0C53F1CBEA21800AC2565 /* ALVerticalButton.m in Sources */,
 				35A94FD41C82DD4100AFFA5F /* ALTabBar.m in Sources */,
+				356725011CC472FA008FE793 /* ALVoiceViewController.m in Sources */,
 				356B65AC1CB4A23700E8208A /* ALNavigationController.m in Sources */,
 				35AD54B51CBD1D170053E8F5 /* ALRecommendTagsViewController.m in Sources */,
 				356B65A91CB49EA500E8208A /* Foundation+Log.m in Sources */,
