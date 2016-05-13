@@ -8,11 +8,7 @@
 
 #import "ALEssenceViewController.h"
 #import "ALRecommendTagsViewController.h"
-#import "ALAllViewController.h"
-#import "ALWordViewController.h"
-#import "ALVideoViewController.h"
-#import "ALVoiceViewController.h"
-#import "ALPictureViewController.h"
+#import "ALTopicViewController.h"
 
 @interface ALEssenceViewController ()<UIScrollViewDelegate>
 
@@ -48,7 +44,7 @@
     [self setupNav];
     
     // 初始化子控制器
-    [self setupChildVces];
+    [self setupChildVcs];
     
     // 设置顶部的标签栏
     [self setupTitlesView];
@@ -60,24 +56,32 @@
 /**
  *  初始化子控制器
  */
-- (void)setupChildVces
+- (void)setupChildVcs
 {
-    ALAllViewController *all = [[ALAllViewController alloc] init];
+    ALTopicViewController *all = [[ALTopicViewController alloc] init];
+    all.title = @"全部";
+    all.type = ALTopicTypeAll;
     [self addChildViewController:all];
     
-    ALVideoViewController *video = [[ALVideoViewController alloc] init];
+    ALTopicViewController *video = [[ALTopicViewController alloc] init];
+    video.title = @"视频";
+    video.type = ALTopicTypeVideo;
     [self addChildViewController:video];
     
-    ALVoiceViewController *voice = [[ALVoiceViewController alloc] init];
+    ALTopicViewController *voice = [[ALTopicViewController alloc] init];
+    voice.title = @"声音";
+    voice.type = ALTopicTypeVoice;
     [self addChildViewController:voice];
     
-    ALPictureViewController *picture = [[ALPictureViewController alloc] init];
+    ALTopicViewController *picture = [[ALTopicViewController alloc] init];
+    picture.title = @"图片";
+    picture.type = ALTopicTypePicture;
     [self addChildViewController:picture];
     
-    ALWordViewController *word = [[ALWordViewController alloc] init];
+    ALTopicViewController *word = [[ALTopicViewController alloc] init];
+    word.title = @"段子";
+    word.type = ALTopicTypeWord;
     [self addChildViewController:word];
-    
-    
 }
 
 /**
@@ -103,15 +107,16 @@
     self.indicatorView = indicatorView;
     
     // 内部的子标签
-    NSArray *titles = @[@"全部",@"视频",@"声音",@"图片",@"段子"];
-    CGFloat width = titlesView.width / titles.count;
+    CGFloat width = titlesView.width / self.childViewControllers.count;
     CGFloat height = titlesView.height;
-    for (NSInteger i = 0; i < titles.count; i++) {
+    for (NSInteger i = 0; i < self.childViewControllers.count; i++) {
         UIButton *button = [[UIButton alloc] init];
+        button.tag = i;
         button.height =  height;
         button.width = width;
-        button.x = i * button.width;
-        [button setTitle:titles[i] forState:UIControlStateNormal];
+        button.x = i * width;
+        UIViewController *vc = self.childViewControllers[i];
+        [button setTitle:vc.title forState:UIControlStateNormal];
         [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor redColor] forState:UIControlStateDisabled];
         button.titleLabel.font = [UIFont systemFontOfSize:14];
@@ -125,8 +130,9 @@
             self.selectButton = button;
             
             // 让按钮内部的label根据文字内容来计算尺寸
-//            [button.titleLabel sizeToFit];
-            self.indicatorView.width = [titles[i] sizeWithAttributes:@{NSFontAttributeName:button.titleLabel.font}].width;
+            [button.titleLabel sizeToFit];
+//            self.indicatorView.width = [titles[i] sizeWithAttributes:@{NSFontAttributeName:button.titleLabel.font}].width;
+            self.indicatorView.width = button.titleLabel.width;
             self.indicatorView.centerX = button.centerX;
         }
     }
@@ -146,6 +152,11 @@
         self.indicatorView.width = button.titleLabel.width;
         self.indicatorView.centerX  = button.centerX;
     }];
+    
+    // 滚动
+    CGPoint offset = self.contentView.contentOffset;
+    offset.x = button.tag * self.contentView.width;
+    [self.contentView setContentOffset:offset animated:YES];
 }
 
 /**
@@ -197,16 +208,10 @@
     NSInteger index = scrollView.contentOffset.x / scrollView.width;
     
     // 取出子控制器
-    UITableViewController *vc = self.childViewControllers[index];
+    UIViewController *vc = self.childViewControllers[index];
     vc.view.x = scrollView.contentOffset.x;
     vc.view.y = 0; // 设置控制器的View的y值为0 （默认是20）
     vc.view.height = scrollView.height;//设置控制器view的height的值为整个屏幕的高度（默认比屏幕高度少20px）
-    // 设置内边距
-    CGFloat bottom = self.tabBarController.tabBar.height;
-    CGFloat top = CGRectGetMaxY(self.titlesView.frame);
-    vc.tableView.contentInset = UIEdgeInsetsMake(top, 0, bottom, 0);
-    // 设置滚动条的内边距
-    vc.tableView.scrollIndicatorInsets = vc.tableView.contentInset;
     [scrollView addSubview:vc.view];
 }
 

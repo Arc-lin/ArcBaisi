@@ -10,14 +10,10 @@
 		3522A03B1CB75368008878B1 /* ALRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3522A0391CB75368008878B1 /* ALRecommendUserCell.m */; };
 		3522A03C1CB75368008878B1 /* ALRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3522A03A1CB75368008878B1 /* ALRecommendUserCell.xib */; };
 		3522A03F1CB7544D008878B1 /* ALRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3522A03E1CB7544D008878B1 /* ALRecommendUser.m */; };
+		352B54271CDD850600128798 /* ALTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 352B54261CDD850600128798 /* ALTopic.m */; };
 		352C84941CBDCFB600F10B8B /* ALRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C84921CBDCFB600F10B8B /* ALRecommendTagCell.m */; };
 		352C84951CBDCFB600F10B8B /* ALRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352C84931CBDCFB600F10B8B /* ALRecommendTagCell.xib */; };
 		352C84981CBDCFBC00F10B8B /* ALRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C84971CBDCFBC00F10B8B /* ALRecommendTag.m */; };
-		356724FB1CC472D6008FE793 /* ALAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356724FA1CC472D6008FE793 /* ALAllViewController.m */; };
-		356724FE1CC472EC008FE793 /* ALVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356724FD1CC472EC008FE793 /* ALVideoViewController.m */; };
-		356725011CC472FA008FE793 /* ALVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356725001CC472FA008FE793 /* ALVoiceViewController.m */; };
-		356725041CC47307008FE793 /* ALPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356725031CC47307008FE793 /* ALPictureViewController.m */; };
-		356725071CC47313008FE793 /* ALWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356725061CC47313008FE793 /* ALWordViewController.m */; };
 		356B65A01CB4966900E8208A /* ALFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356B659F1CB4966900E8208A /* ALFriendTrendsViewController.xib */; };
 		356B65A41CB49AEB00E8208A /* ALRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B65A21CB49AEB00E8208A /* ALRecommendViewController.m */; };
 		356B65A51CB49AEB00E8208A /* ALRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356B65A31CB49AEB00E8208A /* ALRecommendViewController.xib */; };
@@ -44,6 +40,11 @@
 		35BE2A591CBFDA86006B5EAE /* ALPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BE2A581CBFDA86006B5EAE /* ALPushGuideView.m */; };
 		35BE2A5B1CBFDA94006B5EAE /* ALPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BE2A5A1CBFDA94006B5EAE /* ALPushGuideView.xib */; };
 		35D754AE1CBF2397009AB01C /* ALTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D754AD1CBF2397009AB01C /* ALTextFiled.m */; };
+		35F9E55F1CE5BD8F009C7868 /* ALConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F9E55E1CE5BD8F009C7868 /* ALConst.m */; };
+		35F9E5631CE5C099009C7868 /* ALTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F9E5611CE5C099009C7868 /* ALTopicCell.m */; };
+		35F9E5641CE5C099009C7868 /* ALTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35F9E5621CE5C099009C7868 /* ALTopicCell.xib */; };
+		35F9E5671CE5D498009C7868 /* NSDate+ALExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F9E5661CE5D498009C7868 /* NSDate+ALExtension.m */; };
+		35F9E5681CE60020009C7868 /* ALTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F9E55B1CE5B949009C7868 /* ALTopicViewController.m */; };
 		E1C59303C9499D0DE5AAE7D1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55731C146E65F270B029DE3F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -53,21 +54,13 @@
 		3522A03A1CB75368008878B1 /* ALRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALRecommendUserCell.xib; sourceTree = "<group>"; };
 		3522A03D1CB7544D008878B1 /* ALRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendUser.h; sourceTree = "<group>"; };
 		3522A03E1CB7544D008878B1 /* ALRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendUser.m; sourceTree = "<group>"; };
+		352B54251CDD850600128798 /* ALTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTopic.h; sourceTree = "<group>"; };
+		352B54261CDD850600128798 /* ALTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTopic.m; sourceTree = "<group>"; };
 		352C84911CBDCFB600F10B8B /* ALRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendTagCell.h; sourceTree = "<group>"; };
 		352C84921CBDCFB600F10B8B /* ALRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendTagCell.m; sourceTree = "<group>"; };
 		352C84931CBDCFB600F10B8B /* ALRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALRecommendTagCell.xib; sourceTree = "<group>"; };
 		352C84961CBDCFBC00F10B8B /* ALRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendTag.h; sourceTree = "<group>"; };
 		352C84971CBDCFBC00F10B8B /* ALRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendTag.m; sourceTree = "<group>"; };
-		356724F91CC472D6008FE793 /* ALAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAllViewController.h; sourceTree = "<group>"; };
-		356724FA1CC472D6008FE793 /* ALAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAllViewController.m; sourceTree = "<group>"; };
-		356724FC1CC472EC008FE793 /* ALVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALVideoViewController.h; sourceTree = "<group>"; };
-		356724FD1CC472EC008FE793 /* ALVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALVideoViewController.m; sourceTree = "<group>"; };
-		356724FF1CC472FA008FE793 /* ALVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALVoiceViewController.h; sourceTree = "<group>"; };
-		356725001CC472FA008FE793 /* ALVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALVoiceViewController.m; sourceTree = "<group>"; };
-		356725021CC47307008FE793 /* ALPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALPictureViewController.h; sourceTree = "<group>"; };
-		356725031CC47307008FE793 /* ALPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALPictureViewController.m; sourceTree = "<group>"; };
-		356725051CC47313008FE793 /* ALWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALWordViewController.h; sourceTree = "<group>"; };
-		356725061CC47313008FE793 /* ALWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALWordViewController.m; sourceTree = "<group>"; };
 		356B659F1CB4966900E8208A /* ALFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		356B65A11CB49AEB00E8208A /* ALRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendViewController.h; sourceTree = "<group>"; };
 		356B65A21CB49AEB00E8208A /* ALRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendViewController.m; sourceTree = "<group>"; };
@@ -115,6 +108,15 @@
 		35BE2A5A1CBFDA94006B5EAE /* ALPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALPushGuideView.xib; sourceTree = "<group>"; };
 		35D754AC1CBF2397009AB01C /* ALTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTextFiled.h; sourceTree = "<group>"; };
 		35D754AD1CBF2397009AB01C /* ALTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTextFiled.m; sourceTree = "<group>"; };
+		35F9E55A1CE5B949009C7868 /* ALTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTopicViewController.h; sourceTree = "<group>"; };
+		35F9E55B1CE5B949009C7868 /* ALTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTopicViewController.m; sourceTree = "<group>"; };
+		35F9E55D1CE5BD8F009C7868 /* ALConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALConst.h; sourceTree = "<group>"; };
+		35F9E55E1CE5BD8F009C7868 /* ALConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALConst.m; sourceTree = "<group>"; };
+		35F9E5601CE5C099009C7868 /* ALTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTopicCell.h; sourceTree = "<group>"; };
+		35F9E5611CE5C099009C7868 /* ALTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTopicCell.m; sourceTree = "<group>"; };
+		35F9E5621CE5C099009C7868 /* ALTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALTopicCell.xib; sourceTree = "<group>"; };
+		35F9E5651CE5D498009C7868 /* NSDate+ALExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ALExtension.h"; sourceTree = "<group>"; };
+		35F9E5661CE5D498009C7868 /* NSDate+ALExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ALExtension.m"; sourceTree = "<group>"; };
 		365877BDE4215FC76513F2D0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4CDC449A90CD01718A97F0F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		55731C146E65F270B029DE3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,8 +140,8 @@
 				35A94FA31C82DD4100AFFA5F /* Essence */,
 				35A94FA91C82DD4100AFFA5F /* FriendTrends */,
 				35A94FAF1C82DD4100AFFA5F /* Me */,
-				35A94FB51C82DD4100AFFA5F /* New */,
 				35A94FBB1C82DD4100AFFA5F /* Other */,
+				35A94FB51C82DD4100AFFA5F /* New */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -161,16 +163,8 @@
 				35A94FA61C82DD4100AFFA5F /* ALEssenceViewController.m */,
 				35AD54B31CBD1D170053E8F5 /* ALRecommendTagsViewController.h */,
 				35AD54B41CBD1D170053E8F5 /* ALRecommendTagsViewController.m */,
-				356724F91CC472D6008FE793 /* ALAllViewController.h */,
-				356724FA1CC472D6008FE793 /* ALAllViewController.m */,
-				356724FC1CC472EC008FE793 /* ALVideoViewController.h */,
-				356724FD1CC472EC008FE793 /* ALVideoViewController.m */,
-				356724FF1CC472FA008FE793 /* ALVoiceViewController.h */,
-				356725001CC472FA008FE793 /* ALVoiceViewController.m */,
-				356725021CC47307008FE793 /* ALPictureViewController.h */,
-				356725031CC47307008FE793 /* ALPictureViewController.m */,
-				356725051CC47313008FE793 /* ALWordViewController.h */,
-				356725061CC47313008FE793 /* ALWordViewController.m */,
+				35F9E55A1CE5B949009C7868 /* ALTopicViewController.h */,
+				35F9E55B1CE5B949009C7868 /* ALTopicViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,6 +174,8 @@
 			children = (
 				352C84961CBDCFBC00F10B8B /* ALRecommendTag.h */,
 				352C84971CBDCFBC00F10B8B /* ALRecommendTag.m */,
+				352B54251CDD850600128798 /* ALTopic.h */,
+				352B54261CDD850600128798 /* ALTopic.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,6 +186,9 @@
 				352C84911CBDCFB600F10B8B /* ALRecommendTagCell.h */,
 				352C84921CBDCFB600F10B8B /* ALRecommendTagCell.m */,
 				352C84931CBDCFB600F10B8B /* ALRecommendTagCell.xib */,
+				35F9E5601CE5C099009C7868 /* ALTopicCell.h */,
+				35F9E5611CE5C099009C7868 /* ALTopicCell.m */,
+				35F9E5621CE5C099009C7868 /* ALTopicCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,6 +324,8 @@
 				35A94FBD1C82DD4100AFFA5F /* AppDelegate.m */,
 				35A94FBE1C82DD4100AFFA5F /* BaiSi.pch */,
 				35A94FC71C82DD4100AFFA5F /* main.m */,
+				35F9E55D1CE5BD8F009C7868 /* ALConst.h */,
+				35F9E55E1CE5BD8F009C7868 /* ALConst.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -336,6 +337,8 @@
 				35A94FC11C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.m */,
 				35A94FC21C82DD4100AFFA5F /* UIView+Frame.h */,
 				35A94FC31C82DD4100AFFA5F /* UIView+Frame.m */,
+				35F9E5651CE5D498009C7868 /* NSDate+ALExtension.h */,
+				35F9E5661CE5D498009C7868 /* NSDate+ALExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -480,6 +483,7 @@
 			files = (
 				356B65A01CB4966900E8208A /* ALFriendTrendsViewController.xib in Resources */,
 				3522A03C1CB75368008878B1 /* ALRecommendUserCell.xib in Resources */,
+				35F9E5641CE5C099009C7868 /* ALTopicCell.xib in Resources */,
 				35BE2A5B1CBFDA94006B5EAE /* ALPushGuideView.xib in Resources */,
 				35AEC86E1CB6481900608571 /* ALRecommendCategoryCell.xib in Resources */,
 				35B28A1E1C7CAE4200892675 /* Assets.xcassets in Resources */,
@@ -544,31 +548,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F9E5681CE60020009C7868 /* ALTopicViewController.m in Sources */,
 				35D754AE1CBF2397009AB01C /* ALTextFiled.m in Sources */,
-				356725071CC47313008FE793 /* ALWordViewController.m in Sources */,
-				356724FB1CC472D6008FE793 /* ALAllViewController.m in Sources */,
 				35A94FCD1C82DD4100AFFA5F /* ALMeViewController.m in Sources */,
 				35A94FD01C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.m in Sources */,
 				35A94FCB1C82DD4100AFFA5F /* ALEssenceViewController.m in Sources */,
 				35A94FD11C82DD4100AFFA5F /* UIView+Frame.m in Sources */,
 				35AEC86D1CB6481900608571 /* ALRecommendCategoryCell.m in Sources */,
+				35F9E5671CE5D498009C7868 /* NSDate+ALExtension.m in Sources */,
+				35F9E55F1CE5BD8F009C7868 /* ALConst.m in Sources */,
 				356B65A41CB49AEB00E8208A /* ALRecommendViewController.m in Sources */,
 				3522A03B1CB75368008878B1 /* ALRecommendUserCell.m in Sources */,
+				352B54271CDD850600128798 /* ALTopic.m in Sources */,
 				35A94FD21C82DD4100AFFA5F /* ALTabBarController.m in Sources */,
+				35F9E5631CE5C099009C7868 /* ALTopicCell.m in Sources */,
 				35A94FCE1C82DD4100AFFA5F /* ALNewViewController.m in Sources */,
-				356724FE1CC472EC008FE793 /* ALVideoViewController.m in Sources */,
 				35BE2A591CBFDA86006B5EAE /* ALPushGuideView.m in Sources */,
 				35AEC8661CB6396B00608571 /* ALRecommendCategory.m in Sources */,
 				352C84941CBDCFB600F10B8B /* ALRecommendTagCell.m in Sources */,
 				35A0C53B1CBE8E6600AC2565 /* ALLoginRegisterViewController.m in Sources */,
-				356725041CC47307008FE793 /* ALPictureViewController.m in Sources */,
 				352C84981CBDCFBC00F10B8B /* ALRecommendTag.m in Sources */,
 				3522A03F1CB7544D008878B1 /* ALRecommendUser.m in Sources */,
 				35A94FCC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m in Sources */,
 				35A94FD31C82DD4100AFFA5F /* main.m in Sources */,
 				35A0C53F1CBEA21800AC2565 /* ALVerticalButton.m in Sources */,
 				35A94FD41C82DD4100AFFA5F /* ALTabBar.m in Sources */,
-				356725011CC472FA008FE793 /* ALVoiceViewController.m in Sources */,
 				356B65AC1CB4A23700E8208A /* ALNavigationController.m in Sources */,
 				35AD54B51CBD1D170053E8F5 /* ALRecommendTagsViewController.m in Sources */,
 				356B65A91CB49EA500E8208A /* Foundation+Log.m in Sources */,
