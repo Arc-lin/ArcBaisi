@@ -8,14 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-typedef enum{
-    ALTopicTypeAll = 1,
-    ALTopicTypePicture = 10,
-    ALTopicTypeWord=  29,
-    ALTopicTypeVoice = 31,
-    ALTopicTypeVideo = 41
-} ALTopicType;
-
 @interface ALTopicViewController : UITableViewController
 
 /**

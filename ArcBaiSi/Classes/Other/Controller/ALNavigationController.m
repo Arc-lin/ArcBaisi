@@ -51,7 +51,7 @@
         // 隐藏tabBar
         viewController.hidesBottomBarWhenPushed = YES;
     }
-    
+    // 这句super的push要放在后面，让ViewController可以
     [super pushViewController:viewController animated:animated];
 }
 

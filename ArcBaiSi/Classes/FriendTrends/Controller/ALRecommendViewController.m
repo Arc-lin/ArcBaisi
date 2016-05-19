@@ -154,7 +154,7 @@ static NSString * const ALUserCellId = @"user";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"subscribe";
-    params[@"category_id"] = @(rc.id);
+    params[@"category_id"] = @(rc.ID);
     params[@"page"] = @(rc.currentPage);
     self.params = params;
     
@@ -207,7 +207,7 @@ static NSString * const ALUserCellId = @"user";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"subscribe";
-    params[@"category_id"] = @(rc.id);
+    params[@"category_id"] = @(rc.ID);
     params[@"page"] = @(++rc.currentPage);
     self.params = params;
     

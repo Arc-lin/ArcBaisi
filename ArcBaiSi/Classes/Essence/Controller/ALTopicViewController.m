@@ -84,7 +84,7 @@ static NSString * const ALTopicCellId = @"topic";
     self.tableView.mj_header.automaticallyChangeAlpha = YES;
     [self.tableView.mj_header beginRefreshing];
     
-    self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreTopics)];
+    self.tableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreTopics)];
 }
 
 #pragma mark - 数据处理
@@ -160,7 +160,7 @@ static NSString * const ALTopicCellId = @"topic";
         // 存储maxtime
         self.maxtime = responseObject[@"info"][@"maxtime"];
         
-        // 字典转模型
+        // 字典转模型    
         NSArray *newTopics = [ALTopic mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
         [self.topics addObjectsFromArray:newTopics];
         
@@ -193,6 +193,8 @@ static NSString * const ALTopicCellId = @"topic";
     
     ALTopicCell *cell = [tableView dequeueReusableCellWithIdentifier:ALTopicCellId];
     
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
     cell.topic = self.topics[indexPath.row];
     
     return cell;
@@ -203,15 +205,9 @@ static NSString * const ALTopicCellId = @"topic";
 {
     // 取出帖子模型
     ALTopic *topic = self.topics[indexPath.row];
-    
-    // 文字的最大尺寸
-    CGSize maxSize = CGSizeMake([UIScreen mainScreen].bounds.size.width - 4 * ALTopicCellMargin, MAXFLOAT);
-    CGFloat textH = [topic.text boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:14]} context:nil].size.height;
-    
-    // cell的高度
-    CGFloat cellH = ALTopicCellTextY + textH + ALTopicCellBottomBarH + 2 * ALTopicCellMargin;
-    
-    return cellH;
+  
+    // 返回这个模型对应的cell高度
+    return topic.cellHeight;
 }
 
 @end

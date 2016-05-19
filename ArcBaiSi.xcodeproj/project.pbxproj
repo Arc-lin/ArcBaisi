@@ -40,6 +40,11 @@
 		35BE2A591CBFDA86006B5EAE /* ALPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BE2A581CBFDA86006B5EAE /* ALPushGuideView.m */; };
 		35BE2A5B1CBFDA94006B5EAE /* ALPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BE2A5A1CBFDA94006B5EAE /* ALPushGuideView.xib */; };
 		35D754AE1CBF2397009AB01C /* ALTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D754AD1CBF2397009AB01C /* ALTextFiled.m */; };
+		35E2126C1CEC755F009B1943 /* ALTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E2126B1CEC755F009B1943 /* ALTopicPictureView.m */; };
+		35E2126E1CEC756C009B1943 /* ALTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35E2126D1CEC756C009B1943 /* ALTopicPictureView.xib */; };
+		35E212721CEC92FE009B1943 /* ALShowPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E212701CEC92FE009B1943 /* ALShowPictureViewController.m */; };
+		35E212731CEC92FE009B1943 /* ALShowPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35E212711CEC92FE009B1943 /* ALShowPictureViewController.xib */; };
+		35E212761CECA35B009B1943 /* ALProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E212751CECA35B009B1943 /* ALProgressView.m */; };
 		35F9E55F1CE5BD8F009C7868 /* ALConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F9E55E1CE5BD8F009C7868 /* ALConst.m */; };
 		35F9E5631CE5C099009C7868 /* ALTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F9E5611CE5C099009C7868 /* ALTopicCell.m */; };
 		35F9E5641CE5C099009C7868 /* ALTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35F9E5621CE5C099009C7868 /* ALTopicCell.xib */; };
@@ -108,6 +113,14 @@
 		35BE2A5A1CBFDA94006B5EAE /* ALPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALPushGuideView.xib; sourceTree = "<group>"; };
 		35D754AC1CBF2397009AB01C /* ALTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTextFiled.h; sourceTree = "<group>"; };
 		35D754AD1CBF2397009AB01C /* ALTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTextFiled.m; sourceTree = "<group>"; };
+		35E2126A1CEC755F009B1943 /* ALTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTopicPictureView.h; sourceTree = "<group>"; };
+		35E2126B1CEC755F009B1943 /* ALTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTopicPictureView.m; sourceTree = "<group>"; };
+		35E2126D1CEC756C009B1943 /* ALTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALTopicPictureView.xib; sourceTree = "<group>"; };
+		35E2126F1CEC92FE009B1943 /* ALShowPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALShowPictureViewController.h; sourceTree = "<group>"; };
+		35E212701CEC92FE009B1943 /* ALShowPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALShowPictureViewController.m; sourceTree = "<group>"; };
+		35E212711CEC92FE009B1943 /* ALShowPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALShowPictureViewController.xib; sourceTree = "<group>"; };
+		35E212741CECA35B009B1943 /* ALProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALProgressView.h; sourceTree = "<group>"; };
+		35E212751CECA35B009B1943 /* ALProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALProgressView.m; sourceTree = "<group>"; };
 		35F9E55A1CE5B949009C7868 /* ALTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTopicViewController.h; sourceTree = "<group>"; };
 		35F9E55B1CE5B949009C7868 /* ALTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTopicViewController.m; sourceTree = "<group>"; };
 		35F9E55D1CE5BD8F009C7868 /* ALConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALConst.h; sourceTree = "<group>"; };
@@ -165,6 +178,9 @@
 				35AD54B41CBD1D170053E8F5 /* ALRecommendTagsViewController.m */,
 				35F9E55A1CE5B949009C7868 /* ALTopicViewController.h */,
 				35F9E55B1CE5B949009C7868 /* ALTopicViewController.m */,
+				35E2126F1CEC92FE009B1943 /* ALShowPictureViewController.h */,
+				35E212701CEC92FE009B1943 /* ALShowPictureViewController.m */,
+				35E212711CEC92FE009B1943 /* ALShowPictureViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +205,11 @@
 				35F9E5601CE5C099009C7868 /* ALTopicCell.h */,
 				35F9E5611CE5C099009C7868 /* ALTopicCell.m */,
 				35F9E5621CE5C099009C7868 /* ALTopicCell.xib */,
+				35E2126A1CEC755F009B1943 /* ALTopicPictureView.h */,
+				35E2126B1CEC755F009B1943 /* ALTopicPictureView.m */,
+				35E2126D1CEC756C009B1943 /* ALTopicPictureView.xib */,
+				35E212741CECA35B009B1943 /* ALProgressView.h */,
+				35E212751CECA35B009B1943 /* ALProgressView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -481,6 +502,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E2126E1CEC756C009B1943 /* ALTopicPictureView.xib in Resources */,
+				35E212731CEC92FE009B1943 /* ALShowPictureViewController.xib in Resources */,
 				356B65A01CB4966900E8208A /* ALFriendTrendsViewController.xib in Resources */,
 				3522A03C1CB75368008878B1 /* ALRecommendUserCell.xib in Resources */,
 				35F9E5641CE5C099009C7868 /* ALTopicCell.xib in Resources */,
@@ -556,6 +579,7 @@
 				35A94FD11C82DD4100AFFA5F /* UIView+Frame.m in Sources */,
 				35AEC86D1CB6481900608571 /* ALRecommendCategoryCell.m in Sources */,
 				35F9E5671CE5D498009C7868 /* NSDate+ALExtension.m in Sources */,
+				35E212761CECA35B009B1943 /* ALProgressView.m in Sources */,
 				35F9E55F1CE5BD8F009C7868 /* ALConst.m in Sources */,
 				356B65A41CB49AEB00E8208A /* ALRecommendViewController.m in Sources */,
 				3522A03B1CB75368008878B1 /* ALRecommendUserCell.m in Sources */,
@@ -563,6 +587,7 @@
 				35A94FD21C82DD4100AFFA5F /* ALTabBarController.m in Sources */,
 				35F9E5631CE5C099009C7868 /* ALTopicCell.m in Sources */,
 				35A94FCE1C82DD4100AFFA5F /* ALNewViewController.m in Sources */,
+				35E2126C1CEC755F009B1943 /* ALTopicPictureView.m in Sources */,
 				35BE2A591CBFDA86006B5EAE /* ALPushGuideView.m in Sources */,
 				35AEC8661CB6396B00608571 /* ALRecommendCategory.m in Sources */,
 				352C84941CBDCFB600F10B8B /* ALRecommendTagCell.m in Sources */,
@@ -570,6 +595,7 @@
 				352C84981CBDCFBC00F10B8B /* ALRecommendTag.m in Sources */,
 				3522A03F1CB7544D008878B1 /* ALRecommendUser.m in Sources */,
 				35A94FCC1C82DD4100AFFA5F /* ALFriendTrendsViewController.m in Sources */,
+				35E212721CEC92FE009B1943 /* ALShowPictureViewController.m in Sources */,
 				35A94FD31C82DD4100AFFA5F /* main.m in Sources */,
 				35A0C53F1CBEA21800AC2565 /* ALVerticalButton.m in Sources */,
 				35A94FD41C82DD4100AFFA5F /* ALTabBar.m in Sources */,

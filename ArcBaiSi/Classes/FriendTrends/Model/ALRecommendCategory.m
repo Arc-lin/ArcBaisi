@@ -10,6 +10,13 @@
 
 @implementation ALRecommendCategory
 
++ (NSDictionary *)mj_replacedKeyFromPropertyName
+{
+    return @{
+             @"ID":@"id"
+             };
+}
+
 /**
  *  懒加载
  */

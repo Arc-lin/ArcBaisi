@@ -25,3 +25,15 @@ CGFloat const ALTopicCellTextY = 55;
  *  精华 - cell - 底部工具条的高度
  */
 CGFloat const ALTopicCellBottomBarH = 44;
+
+/**
+ *  精华-cell-图片帖子的最大高度
+ */
+CGFloat const ALTopicCellPictureMaxH = 1000;
+
+/**
+ *  精华-cell-图片帖子一旦超过最大高度，就是用Break
+ */
+CGFloat const ALTopicCellPictureBreakH = 250;
+
+

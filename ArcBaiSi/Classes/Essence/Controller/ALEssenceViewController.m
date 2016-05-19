@@ -57,7 +57,12 @@
  *  初始化子控制器
  */
 - (void)setupChildVcs
-{
+{    
+    ALTopicViewController *picture = [[ALTopicViewController alloc] init];
+    picture.title = @"图片";
+    picture.type = ALTopicTypePicture;
+    [self addChildViewController:picture];
+    
     ALTopicViewController *all = [[ALTopicViewController alloc] init];
     all.title = @"全部";
     all.type = ALTopicTypeAll;
@@ -72,11 +77,6 @@
     voice.title = @"声音";
     voice.type = ALTopicTypeVoice;
     [self addChildViewController:voice];
-    
-    ALTopicViewController *picture = [[ALTopicViewController alloc] init];
-    picture.title = @"图片";
-    picture.type = ALTopicTypePicture;
-    [self addChildViewController:picture];
     
     ALTopicViewController *word = [[ALTopicViewController alloc] init];
     word.title = @"段子";
@@ -93,8 +93,8 @@
     UIView *titlesView = [[UIView alloc] init];
     titlesView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.7];
     titlesView.width = self.view.width;
-    titlesView.height = 35;
-    titlesView.y = 64;
+    titlesView.height = ALTitlesViewH;
+    titlesView.y = ALTitlesViewY;
     [self.view addSubview:titlesView];
     self.titlesView = titlesView;
     

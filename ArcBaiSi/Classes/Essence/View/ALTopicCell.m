@@ -8,56 +8,52 @@
 
 #import "ALTopicCell.h"
 #import "ALTopic.h"
+#import "ALTopicPictureView.h"
 
 @interface ALTopicCell()
-/**
- *  头像
- */
+/** 头像 */
 @property (weak, nonatomic) IBOutlet UIImageView *profileImageView;
 
-/**
- *  昵称
- */
+/** 昵称 */
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
-/**
- *  时间
- */
+/** 时间 */
 @property (weak, nonatomic) IBOutlet UILabel *createTimeLabel;
 
-/**
- *  顶
- */
+/** 顶 */
 @property (weak, nonatomic) IBOutlet UIButton *dingButton;
 
-/**
- *  踩
- */
+/** 踩 */
 @property (weak, nonatomic) IBOutlet UIButton *caiButton;
 
-/**
- *  分享
- */
+/** 分享 */ 
 @property (weak, nonatomic) IBOutlet UIButton *shareButton;
 
-/**
- *  评论
- */
+/** 评论 */
 @property (weak, nonatomic) IBOutlet UIButton *commentButton;
 
-/**
- *  新浪加V
- */
+/** 新浪加V */
 @property (weak, nonatomic) IBOutlet UIImageView *sinaVView;
 
-/**
- *  帖子的文字内容
- */
+/** 帖子的文字内容 */
 @property (weak, nonatomic) IBOutlet UILabel *text_label;
+
+/**图片帖子中间的内容 */
+@property (nonatomic,weak) ALTopicPictureView *pictureView;
 
 @end
 
 @implementation ALTopicCell
+
+- (ALTopicPictureView *)pictureView
+{
+    if (!_pictureView) {
+        ALTopicPictureView *pictureView = [ALTopicPictureView  pictureView];
+        [self.contentView addSubview:pictureView];
+        _pictureView = pictureView;
+    }
+    return _pictureView;
+}
 
 - (void)awakeFromNib {
     // 添加cell的阴影
@@ -90,10 +86,19 @@
     
     // 设置帖子的文字内容
     self.text_label.text = topic.text;
+    
+    // 根据模型类型（帖子类型）添加对应的内容到cell的中间
+    if (topic.type == ALTopicTypePicture) { // 图片帖子
+        self.pictureView.topic = topic;
+        self.pictureView.frame = topic.pictureF;
+    }else if(topic.type == ALTopicTypeVoice){ // 声音帖子
+//        self.voiceView.topic = topic;
+//        self.voiceView.frame = topic.voiceView;
+    }
+    
 }
 
-/**
- *  设置底部按钮文字
+/** 设置底部按钮文字
  */
 - (void)setupButtonTitle:(UIButton *)button count:(NSInteger)count placeholdr:(NSString *)placeholder
 {
