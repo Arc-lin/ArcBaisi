@@ -62,7 +62,7 @@ static NSString * const ALUserCellId = @"user";
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-//     控件的初始化
+    //控件的初始化
     [self setUpTableView];
     
     // 添加刷新控件
@@ -144,7 +144,7 @@ static NSString * const ALUserCellId = @"user";
 #pragma mark - 加载用户数据
 - (void)loadNewUsers
 {
-    ALRecommendCategory  *rc = ALSelectedCategory;
+    ALRecommendCategory *rc = ALSelectedCategory;
     
     // 设置当前页码为1
     rc.currentPage = 1;

@@ -11,7 +11,6 @@
 @implementation ALTopic
 {
     CGFloat _cellHeight;
-    CGRect _pictureF;
 }
 
 + (NSDictionary *)mj_replacedKeyFromPropertyName
@@ -86,7 +85,21 @@
             _cellHeight += pictureH + ALTopicCellMargin;
             
         } else if(self.type == ALTopicTypeVoice){ // 声音帖子
-        
+            CGFloat voiceX = ALTopicCellMargin;
+            CGFloat voiceY = ALTopicCellTextY + textH + ALTopicCellMargin;
+            CGFloat voiceW = maxSize.width;
+            CGFloat voiceH = voiceW * self.height / self.width;
+            _voiceF = CGRectMake(voiceX, voiceY, voiceW, voiceH);
+            
+            _cellHeight += voiceH + ALTopicCellMargin;
+        }else if(self.type == ALTopicTypeVideo){ // 视频帖子
+            CGFloat videoX= ALTopicCellMargin;
+            CGFloat videoY = ALTopicCellTextY + textH + ALTopicCellMargin;
+            CGFloat videoW = maxSize.width;
+            CGFloat videoH = videoW * self.height / self.width;
+            _videoF = CGRectMake(videoX, videoY, videoW, videoH);
+            
+            _cellHeight += videoH + ALTopicCellMargin;
         }
         
         // 底部工具条的高度

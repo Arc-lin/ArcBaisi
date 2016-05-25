@@ -9,37 +9,35 @@
 #import "ALTopicCell.h"
 #import "ALTopic.h"
 #import "ALTopicPictureView.h"
+#import "ALTopicVideoView.h"
+#import "ALTopicVoiceView.h"
 
 @interface ALTopicCell()
+
 /** 头像 */
 @property (weak, nonatomic) IBOutlet UIImageView *profileImageView;
-
 /** 昵称 */
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
-
 /** 时间 */
 @property (weak, nonatomic) IBOutlet UILabel *createTimeLabel;
-
 /** 顶 */
 @property (weak, nonatomic) IBOutlet UIButton *dingButton;
-
 /** 踩 */
 @property (weak, nonatomic) IBOutlet UIButton *caiButton;
-
 /** 分享 */ 
 @property (weak, nonatomic) IBOutlet UIButton *shareButton;
-
 /** 评论 */
 @property (weak, nonatomic) IBOutlet UIButton *commentButton;
-
 /** 新浪加V */
 @property (weak, nonatomic) IBOutlet UIImageView *sinaVView;
-
 /** 帖子的文字内容 */
 @property (weak, nonatomic) IBOutlet UILabel *text_label;
-
-/**图片帖子中间的内容 */
+/** 图片帖子中间的内容 */
 @property (nonatomic,weak) ALTopicPictureView *pictureView;
+/** 声音帖子中间的内容 */
+@property (nonatomic,weak) ALTopicVoiceView *voiceView;
+/** 视频帖子中间的内容 */
+@property (nonatomic,weak) ALTopicVideoView *videoView;
 
 @end
 
@@ -53,6 +51,26 @@
         _pictureView = pictureView;
     }
     return _pictureView;
+}
+
+- (ALTopicVoiceView *)voiceView
+{
+    if (!_voiceView) {
+        ALTopicVoiceView *voiceView = [ALTopicVoiceView voiceView];
+        [self.contentView addSubview:voiceView];
+        _voiceView = voiceView;
+    }
+    return _voiceView;
+}
+
+- (ALTopicVideoView *)videoView
+{
+    if (!_videoView) {
+        ALTopicVideoView *videoView = [ALTopicVideoView videoView];
+        [self.contentView addSubview:videoView];
+        _videoView = videoView;
+    }
+    return _videoView;
 }
 
 - (void)awakeFromNib {
@@ -89,11 +107,30 @@
     
     // 根据模型类型（帖子类型）添加对应的内容到cell的中间
     if (topic.type == ALTopicTypePicture) { // 图片帖子
+        self.pictureView.hidden = NO;
         self.pictureView.topic = topic;
         self.pictureView.frame = topic.pictureF;
+    
+        self.voiceView.hidden = YES;
+        self.videoView.hidden = YES;
     }else if(topic.type == ALTopicTypeVoice){ // 声音帖子
-//        self.voiceView.topic = topic;
-//        self.voiceView.frame = topic.voiceView;
+        self.voiceView.hidden = NO;
+        self.voiceView.topic = topic;
+        self.voiceView.frame = topic.voiceF;
+        
+        self.pictureView.hidden = YES;
+        self.videoView.hidden = YES;
+    }else if(topic.type == ALTopicTypeVideo){ // 视频帖子
+        self.videoView.hidden = NO;
+        self.videoView.topic = topic;
+        self.videoView.frame = topic.videoF;
+        
+        self.voiceView.hidden = YES;
+        self.pictureView.hidden = YES;
+    }else{ // 段子帖子
+        self.videoView.hidden = YES;
+        self.voiceView.hidden = YES;
+        self.pictureView.hidden = YES;
     }
     
 }

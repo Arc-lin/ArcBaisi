@@ -7,8 +7,12 @@
 //
 
 #import "ALTabBar.h"
-@interface ALTabBar()
+#import "ALPublishViewController.h"
 
+@interface ALTabBar()
+/**
+ *  发布按钮
+ */
 @property (nonatomic,weak) UIButton *publicButton;
 
 @end
@@ -25,11 +29,18 @@
         UIButton *publicButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [publicButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
         [publicButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
+        [publicButton addTarget:self action:@selector(publishClick) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:publicButton];
         self.publicButton = publicButton;
     }
     
     return self;
+}
+
+- (void)publishClick
+{
+    ALPublishViewController *publish = [[ALPublishViewController alloc] init];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:publish animated:NO completion:nil];
 }
 
 - (void)layoutSubviews

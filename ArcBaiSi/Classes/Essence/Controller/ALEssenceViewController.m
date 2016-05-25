@@ -58,15 +58,15 @@
  */
 - (void)setupChildVcs
 {    
-    ALTopicViewController *picture = [[ALTopicViewController alloc] init];
-    picture.title = @"图片";
-    picture.type = ALTopicTypePicture;
-    [self addChildViewController:picture];
-    
     ALTopicViewController *all = [[ALTopicViewController alloc] init];
     all.title = @"全部";
     all.type = ALTopicTypeAll;
     [self addChildViewController:all];
+
+    ALTopicViewController *picture = [[ALTopicViewController alloc] init];
+    picture.title = @"图片";
+    picture.type = ALTopicTypePicture;
+    [self addChildViewController:picture];
     
     ALTopicViewController *video = [[ALTopicViewController alloc] init];
     video.title = @"视频";

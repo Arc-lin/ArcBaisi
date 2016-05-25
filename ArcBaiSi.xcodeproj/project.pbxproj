@@ -14,6 +14,12 @@
 		352C84941CBDCFB600F10B8B /* ALRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C84921CBDCFB600F10B8B /* ALRecommendTagCell.m */; };
 		352C84951CBDCFB600F10B8B /* ALRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352C84931CBDCFB600F10B8B /* ALRecommendTagCell.xib */; };
 		352C84981CBDCFBC00F10B8B /* ALRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C84971CBDCFBC00F10B8B /* ALRecommendTag.m */; };
+		35406D4E1CF5C6A200D8570F /* ALTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35406D4D1CF5C6A200D8570F /* ALTopicVoiceView.m */; };
+		35406D501CF5C6B800D8570F /* ALTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35406D4F1CF5C6B800D8570F /* ALTopicVoiceView.xib */; };
+		35406D541CF5CADC00D8570F /* ALTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35406D521CF5CADC00D8570F /* ALTopicVideoView.m */; };
+		35406D551CF5CADC00D8570F /* ALTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35406D531CF5CADC00D8570F /* ALTopicVideoView.xib */; };
+		354292EF1CEDEA81006DF689 /* ALPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354292ED1CEDEA81006DF689 /* ALPublishViewController.m */; };
+		354292F01CEDEA81006DF689 /* ALPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354292EE1CEDEA81006DF689 /* ALPublishViewController.xib */; };
 		356B65A01CB4966900E8208A /* ALFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356B659F1CB4966900E8208A /* ALFriendTrendsViewController.xib */; };
 		356B65A41CB49AEB00E8208A /* ALRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B65A21CB49AEB00E8208A /* ALRecommendViewController.m */; };
 		356B65A51CB49AEB00E8208A /* ALRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356B65A31CB49AEB00E8208A /* ALRecommendViewController.xib */; };
@@ -66,6 +72,15 @@
 		352C84931CBDCFB600F10B8B /* ALRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALRecommendTagCell.xib; sourceTree = "<group>"; };
 		352C84961CBDCFBC00F10B8B /* ALRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendTag.h; sourceTree = "<group>"; };
 		352C84971CBDCFBC00F10B8B /* ALRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendTag.m; sourceTree = "<group>"; };
+		35406D4C1CF5C6A200D8570F /* ALTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTopicVoiceView.h; sourceTree = "<group>"; };
+		35406D4D1CF5C6A200D8570F /* ALTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTopicVoiceView.m; sourceTree = "<group>"; };
+		35406D4F1CF5C6B800D8570F /* ALTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALTopicVoiceView.xib; sourceTree = "<group>"; };
+		35406D511CF5CADC00D8570F /* ALTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTopicVideoView.h; sourceTree = "<group>"; };
+		35406D521CF5CADC00D8570F /* ALTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTopicVideoView.m; sourceTree = "<group>"; };
+		35406D531CF5CADC00D8570F /* ALTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALTopicVideoView.xib; sourceTree = "<group>"; };
+		354292EC1CEDEA81006DF689 /* ALPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALPublishViewController.h; sourceTree = "<group>"; };
+		354292ED1CEDEA81006DF689 /* ALPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALPublishViewController.m; sourceTree = "<group>"; };
+		354292EE1CEDEA81006DF689 /* ALPublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALPublishViewController.xib; sourceTree = "<group>"; };
 		356B659F1CB4966900E8208A /* ALFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		356B65A11CB49AEB00E8208A /* ALRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRecommendViewController.h; sourceTree = "<group>"; };
 		356B65A21CB49AEB00E8208A /* ALRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRecommendViewController.m; sourceTree = "<group>"; };
@@ -199,6 +214,8 @@
 		35A94FA81C82DD4100AFFA5F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				35E212741CECA35B009B1943 /* ALProgressView.h */,
+				35E212751CECA35B009B1943 /* ALProgressView.m */,
 				352C84911CBDCFB600F10B8B /* ALRecommendTagCell.h */,
 				352C84921CBDCFB600F10B8B /* ALRecommendTagCell.m */,
 				352C84931CBDCFB600F10B8B /* ALRecommendTagCell.xib */,
@@ -208,8 +225,12 @@
 				35E2126A1CEC755F009B1943 /* ALTopicPictureView.h */,
 				35E2126B1CEC755F009B1943 /* ALTopicPictureView.m */,
 				35E2126D1CEC756C009B1943 /* ALTopicPictureView.xib */,
-				35E212741CECA35B009B1943 /* ALProgressView.h */,
-				35E212751CECA35B009B1943 /* ALProgressView.m */,
+				35406D4C1CF5C6A200D8570F /* ALTopicVoiceView.h */,
+				35406D4D1CF5C6A200D8570F /* ALTopicVoiceView.m */,
+				35406D4F1CF5C6B800D8570F /* ALTopicVoiceView.xib */,
+				35406D511CF5CADC00D8570F /* ALTopicVideoView.h */,
+				35406D521CF5CADC00D8570F /* ALTopicVideoView.m */,
+				35406D531CF5CADC00D8570F /* ALTopicVideoView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -371,6 +392,9 @@
 				35A94FC61C82DD4100AFFA5F /* ALTabBarController.m */,
 				356B65AA1CB4A23700E8208A /* ALNavigationController.h */,
 				356B65AB1CB4A23700E8208A /* ALNavigationController.m */,
+				354292EC1CEDEA81006DF689 /* ALPublishViewController.h */,
+				354292ED1CEDEA81006DF689 /* ALPublishViewController.m */,
+				354292EE1CEDEA81006DF689 /* ALPublishViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -503,8 +527,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				35E2126E1CEC756C009B1943 /* ALTopicPictureView.xib in Resources */,
+				35406D551CF5CADC00D8570F /* ALTopicVideoView.xib in Resources */,
 				35E212731CEC92FE009B1943 /* ALShowPictureViewController.xib in Resources */,
 				356B65A01CB4966900E8208A /* ALFriendTrendsViewController.xib in Resources */,
+				354292F01CEDEA81006DF689 /* ALPublishViewController.xib in Resources */,
 				3522A03C1CB75368008878B1 /* ALRecommendUserCell.xib in Resources */,
 				35F9E5641CE5C099009C7868 /* ALTopicCell.xib in Resources */,
 				35BE2A5B1CBFDA94006B5EAE /* ALPushGuideView.xib in Resources */,
@@ -512,6 +538,7 @@
 				35B28A1E1C7CAE4200892675 /* Assets.xcassets in Resources */,
 				35A0C53C1CBE8E6600AC2565 /* ALLoginRegisterViewController.xib in Resources */,
 				356B65A51CB49AEB00E8208A /* ALRecommendViewController.xib in Resources */,
+				35406D501CF5C6B800D8570F /* ALTopicVoiceView.xib in Resources */,
 				352C84951CBDCFB600F10B8B /* ALRecommendTagCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,6 +600,7 @@
 			files = (
 				35F9E5681CE60020009C7868 /* ALTopicViewController.m in Sources */,
 				35D754AE1CBF2397009AB01C /* ALTextFiled.m in Sources */,
+				35406D541CF5CADC00D8570F /* ALTopicVideoView.m in Sources */,
 				35A94FCD1C82DD4100AFFA5F /* ALMeViewController.m in Sources */,
 				35A94FD01C82DD4100AFFA5F /* UIBarButtonItem+ALExtension.m in Sources */,
 				35A94FCB1C82DD4100AFFA5F /* ALEssenceViewController.m in Sources */,
@@ -584,10 +612,12 @@
 				356B65A41CB49AEB00E8208A /* ALRecommendViewController.m in Sources */,
 				3522A03B1CB75368008878B1 /* ALRecommendUserCell.m in Sources */,
 				352B54271CDD850600128798 /* ALTopic.m in Sources */,
+				354292EF1CEDEA81006DF689 /* ALPublishViewController.m in Sources */,
 				35A94FD21C82DD4100AFFA5F /* ALTabBarController.m in Sources */,
 				35F9E5631CE5C099009C7868 /* ALTopicCell.m in Sources */,
 				35A94FCE1C82DD4100AFFA5F /* ALNewViewController.m in Sources */,
 				35E2126C1CEC755F009B1943 /* ALTopicPictureView.m in Sources */,
+				35406D4E1CF5C6A200D8570F /* ALTopicVoiceView.m in Sources */,
 				35BE2A591CBFDA86006B5EAE /* ALPushGuideView.m in Sources */,
 				35AEC8661CB6396B00608571 /* ALRecommendCategory.m in Sources */,
 				352C84941CBDCFB600F10B8B /* ALRecommendTagCell.m in Sources */,
