@@ -7,6 +7,8 @@
 //
 
 #import "ALTopic.h"
+#import "ALComment.h"
+#import "ALUser.h"
 
 @implementation ALTopic
 {
@@ -18,8 +20,14 @@
     return @{
              @"small_image" : @"image0",
              @"large_image" : @"image1",
-             @"middle_image": @"image2"
+             @"middle_image": @"image2",
+             @"ID":@"id"
              };
+}
+
++ (NSDictionary *)mj_objectClassInArray
+{
+    return @{@"top_cmt":@"ALComment"};
 }
 
 - (NSString *)create_time
@@ -100,6 +108,15 @@
             _videoF = CGRectMake(videoX, videoY, videoW, videoH);
             
             _cellHeight += videoH + ALTopicCellMargin;
+        }
+        
+        // 如果有最热评论
+        ALComment *cmt = [self.top_cmt firstObject];
+        if(cmt){
+            NSString *content = [NSString stringWithFormat:@"%@ : %@",cmt.user.username,cmt.content];
+            CGFloat contentH = [content boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:13]} context:nil].size.height;
+            
+            _cellHeight += ALTopicCellTopCmtTitleH + contentH + ALTopicCellMargin * 2;
         }
         
         // 底部工具条的高度

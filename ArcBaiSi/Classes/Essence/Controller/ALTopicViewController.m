@@ -9,6 +9,7 @@
 #import "ALTopicViewController.h"
 #import "ALTopicCell.h"
 #import "ALTopic.h"
+#import "ALCommentViewController.h"
 
 @interface ALTopicViewController()
 
@@ -201,6 +202,14 @@ static NSString * const ALTopicCellId = @"topic";
 }
 
 #pragma mark - 代理方法
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    ALCommentViewController *commentVc = [[ALCommentViewController alloc] init];
+    commentVc.topic = self.topics[indexPath.row];
+    [self.navigationController pushViewController:commentVc animated:YES];
+}
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // 取出帖子模型

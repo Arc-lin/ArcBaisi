@@ -9,37 +9,30 @@ typedef enum{
     ALTopicTypeVideo = 41
 } ALTopicType;
 
-/**
- *  精华-顶部标题的高度
- */
+/**  精华-顶部标题的高度*/
 UIKIT_EXTERN CGFloat const ALTitlesViewH;
 
-/**
- *  精华-顶部标题的Y
- */
+/**  精华-顶部标题的Y*/
 UIKIT_EXTERN CGFloat const ALTitlesViewY;
 
-/**
- *  精华-cell-间距
- */
+/**  精华-cell-间距*/
 UIKIT_EXTERN CGFloat const ALTopicCellMargin;
 
-/**
- *  精华-cell-文字内容的Y值
- */
+/**  精华-cell-文字内容的Y值*/
 UIKIT_EXTERN CGFloat const ALTopicCellTextY;
 
-/**
- *  精华-cell-底部工具条的高度
- */
+/**  精华-cell-底部工具条的高度*/ 
 UIKIT_EXTERN CGFloat const ALTopicCellBottomBarH;
 
-/**
- *  精华-cell-图片帖子的最大高度
- */
+/**  精华-cell-图片帖子的最大高度*/
 UIKIT_EXTERN CGFloat const ALTopicCellPictureMaxH;
 
-/**
- *  精华-cell-图片帖子一旦超过最大高度，就是用Break
- */
+/**  精华-cell-图片帖子一旦超过最大高度，就是用Break*/
 UIKIT_EXTERN CGFloat const ALTopicCellPictureBreakH;
+
+/** ALUser模型-性别属性值 */
+UIKIT_EXTERN NSString * const ALUserSexMale;
+UIKIT_EXTERN NSString * const ALUserSexFemale;
+
+/** 精华-cell-最热评论标题的高度 */
+UIKIT_EXTERN CGFloat const ALTopicCellTopCmtTitleH;

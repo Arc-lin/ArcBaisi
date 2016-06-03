@@ -17,4 +17,6 @@
  */
 @property (nonatomic,strong) ALTopic *topic;
 
++ (instancetype)cell;
+
 @end

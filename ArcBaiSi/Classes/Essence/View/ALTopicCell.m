@@ -11,6 +11,8 @@
 #import "ALTopicPictureView.h"
 #import "ALTopicVideoView.h"
 #import "ALTopicVoiceView.h"
+#import "ALComment.h"
+#import "ALUser.h"
 
 @interface ALTopicCell()
 
@@ -38,10 +40,19 @@
 @property (nonatomic,weak) ALTopicVoiceView *voiceView;
 /** 视频帖子中间的内容 */
 @property (nonatomic,weak) ALTopicVideoView *videoView;
+/** 最热评论的内容 */
+@property (weak, nonatomic) IBOutlet UILabel *topCmtContentLabel;
+/** 最热评论的整体 */
+@property (weak, nonatomic) IBOutlet UIView *topCmtView;
 
 @end
 
 @implementation ALTopicCell
+
++ (instancetype)cell
+{
+    return [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil] firstObject];
+}
 
 - (ALTopicPictureView *)pictureView
 {
@@ -133,6 +144,14 @@
         self.pictureView.hidden = YES;
     }
     
+    // 处理最热评论
+    ALComment *cmt = [topic.top_cmt firstObject];
+    if (cmt) {
+        self.topCmtView.hidden = NO;
+        self.topCmtContentLabel.text = [NSString stringWithFormat:@"%@ : %@", cmt.user.username, cmt.content];
+    } else {
+        self.topCmtView.hidden = YES;
+    }
 }
 
 /** 设置底部按钮文字
@@ -152,10 +171,21 @@
 {
     frame.origin.x = ALTopicCellMargin;
     frame.size.width -= 2 * ALTopicCellMargin;
-    frame.size.height -= ALTopicCellMargin;
+    frame.size.height = self.topic.cellHeight - ALTopicCellMargin;
     frame.origin.y += ALTopicCellMargin;
     
     [super setFrame:frame];
+}
+
+- (IBAction)more:(id)sender {
+    
+//    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+//    [alertController addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
+//    [alertController addAction:[UIAlertAction actionWithTitle:@"收藏" style:UIAlertActionStyleDefault handler:nil]];
+//    [alertController addAction:[UIAlertAction actionWithTitle:@"举报" style:UIAlertActionStyleDefault handler:nil]];
+    UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:nil cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"收藏",@"举报", nil];
+    [sheet showInView:self.window];
+    
 }
 
 @end
