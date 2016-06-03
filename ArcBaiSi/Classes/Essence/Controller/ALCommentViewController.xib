@@ -7,7 +7,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ALCommentViewController">
             <connections>
-                <outlet property="bottomSapce" destination="5dj-Wt-Fr3" id="g2K-Ns-H9K"/>
                 <outlet property="bottomSpace" destination="2Fg-Mo-Iwi" id="ZFT-pz-4w5"/>
                 <outlet property="tableView" destination="4xL-vv-lNO" id="Oxl-cL-Hkb"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
